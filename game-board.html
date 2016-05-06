@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Space Journey Gameboard</title>
+</head>
+<body>
+
+<canvas id="myCanvas" width="5475" height="5475" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+var canvas=document.getElementById("myCanvas"),
+    ctx=canvas.getContext("2d"),
+    diameter = canvas.width,
+    radius = diameter/2,
+    center = canvas.width/2,
+    spaceGradient=ctx.createRadialGradient(center,center,0.2*radius,center,center,0.6*radius),
+    sunGradient=ctx.createRadialGradient(center,center,0.08*radius,center,center,0.1*radius);
+
+sunGradient.addColorStop(0,"#FFFF33");
+sunGradient.addColorStop(1,"#00264d");
+spaceGradient.addColorStop(0,"#00264d");
+spaceGradient.addColorStop(1, "#000d1a");
+ctx.lineWidth=canvas.width/1000;
+
+// Fill with gradient
+ctx.fillStyle=spaceGradient;
+ctx.fillRect(0,0,canvas.width,canvas.height);
+
+ctx.fillStyle=sunGradient;
+ctx.beginPath();
+ctx.arc(center,center,0.1*radius,0,2*Math.PI);
+ctx.fill();
+
+function resetTransform() {
+    ctx.setTransform(1, 0, 0, 1, center, center);
+}
+
+function drawOrbit (radius, color, spaces, nextOrbitRadius) {
+    ctx.strokeStyle="lightgreen";
+    ctx.beginPath();
+    ctx.arc(0,0,radius,0,2*Math.PI);
+    ctx.stroke();
+
+    ctx.fillStyle=color;
+    var angle_incriment = 2*Math.PI/spaces
+    for(i=0; i<spaces; i++){
+        ctx.rotate(angle_incriment);
+
+        ctx.beginPath();
+        ctx.arc(radius, 0, 10*ctx.lineWidth, 0, 2*Math.PI);
+        ctx.fill();
+
+        if (nextOrbitRadius > 0){
+            ctx.strokeStyle = "#0066ff";
+            drawBoostPath(radius, nextOrbitRadius, 1*angle_incriment/4);
+            drawBoostPath(radius, nextOrbitRadius, 3*angle_incriment/4);
+            ctx.strokeStyle = "#990000";
+            drawBoostPath(radius, nextOrbitRadius, -1*angle_incriment/4);
+            drawBoostPath(radius, nextOrbitRadius, -3*angle_incriment/4);
+        }
+    }
+}
+
+function drawBoostPath(currentRadius, targetRadius, targetRotationAngle ){
+    xctrl = targetRadius*Math.cos(targetRotationAngle/2);
+    yctrl = -targetRadius*Math.sin(targetRotationAngle/2);
+    xnext = targetRadius*Math.cos(targetRotationAngle);
+    ynext = -targetRadius*Math.sin(targetRotationAngle);
+    ctx.beginPath();
+    ctx.moveTo(currentRadius,0);
+    ctx.quadraticCurveTo(xctrl, yctrl, xnext,ynext);
+    ctx.stroke();
+}
+
+var firstOrbit = {radius: radius/4.25, segments: 4, color: "#b7330e"},
+secondOrbit = { radius: firstOrbit.radius * 1.587, segments: firstOrbit.segments*2, color: "#0077be"},
+thirdOrbit = { radius: secondOrbit.radius * 1.587, segments: secondOrbit.segments*2, color: "#ffc0cb"},
+fourthOrbit = { radius: thirdOrbit.radius * 1.587, segments: thirdOrbit.segments*2, color: "#BBBBEE"};
+
+resetTransform();
+
+ctx.rotate(Math.PI/4);
+drawOrbit(firstOrbit.radius, firstOrbit.color, firstOrbit.segments,  secondOrbit.radius);
+ctx.rotate(Math.PI/secondOrbit.segments);
+drawOrbit(secondOrbit.radius, secondOrbit.color, secondOrbit.segments, thirdOrbit.radius);
+ctx.rotate(Math.PI/thirdOrbit.segments);
+drawOrbit(thirdOrbit.radius, thirdOrbit.color, thirdOrbit.segments, fourthOrbit.radius);
+ctx.rotate(Math.PI/fourthOrbit.segments);
+drawOrbit(fourthOrbit.radius, fourthOrbit.color, fourthOrbit.segments, 0);
+
+</script> 
+
+</body>
+</html>
