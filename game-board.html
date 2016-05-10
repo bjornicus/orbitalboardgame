@@ -18,9 +18,12 @@ var canvas=document.getElementById("myCanvas"),
     sunGradient=ctx.createRadialGradient(center,center,0.08*radius,center,center,0.1*radius);
 
 sunGradient.addColorStop(0,"#FFFF33");
-sunGradient.addColorStop(1,"#00264d");
-spaceGradient.addColorStop(0,"#00264d");
-spaceGradient.addColorStop(1, "#000d1a");
+// sunGradient.addColorStop(1,"#00264d");
+sunGradient.addColorStop(1,"#001c39");
+// spaceGradient.addColorStop(0,"#00264d");
+// spaceGradient.addColorStop(1, "#000d1a");
+spaceGradient.addColorStop(0,"#001c39");
+spaceGradient.addColorStop(1, "#000912");
 ctx.lineWidth=canvas.width/1000;
 
 // Fill with gradient
@@ -37,7 +40,7 @@ function resetTransform() {
 }
 
 function drawOrbit (radius, color, spaces, nextOrbitRadius) {
-    ctx.strokeStyle="lightgreen";
+    ctx.strokeStyle="#FFE3C6";
     ctx.beginPath();
     ctx.arc(0,0,radius,0,2*Math.PI);
     ctx.stroke();
@@ -52,10 +55,10 @@ function drawOrbit (radius, color, spaces, nextOrbitRadius) {
         ctx.fill();
 
         if (nextOrbitRadius > 0){
-            ctx.strokeStyle = "#0066ff";
+            ctx.strokeStyle = "#393900";
             drawBoostPath(radius, nextOrbitRadius, 1*angle_incriment/4);
             drawBoostPath(radius, nextOrbitRadius, 3*angle_incriment/4);
-            ctx.strokeStyle = "#990000";
+            ctx.strokeStyle = "#690000";
             drawBoostPath(radius, nextOrbitRadius, -1*angle_incriment/4);
             drawBoostPath(radius, nextOrbitRadius, -3*angle_incriment/4);
         }
@@ -73,8 +76,8 @@ function drawBoostPath(currentRadius, targetRadius, targetRotationAngle ){
     ctx.stroke();
 }
 
-var firstOrbit = {radius: radius/4.25, segments: 4, color: "#b7330e"},
-secondOrbit = { radius: firstOrbit.radius * 1.587, segments: firstOrbit.segments*2, color: "#0077be"},
+var firstOrbit = {radius: radius/4.25, segments: 4, color: "#391d00"},
+secondOrbit = { radius: firstOrbit.radius * 1.587, segments: firstOrbit.segments*2, color: "#003939"},
 thirdOrbit = { radius: secondOrbit.radius * 1.587, segments: secondOrbit.segments*2, color: "#ffc0cb"},
 fourthOrbit = { radius: thirdOrbit.radius * 1.587, segments: thirdOrbit.segments*2, color: "#BBBBEE"};
 
