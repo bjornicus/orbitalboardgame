@@ -50,10 +50,6 @@ function drawOrbit (radius, color, spaces, nextOrbitRadius) {
     for(i=0; i<spaces; i++){
         ctx.rotate(angle_incriment);
 
-        ctx.beginPath();
-        ctx.arc(radius, 0, 10*ctx.lineWidth, 0, 2*Math.PI);
-        ctx.fill();
-
         if (nextOrbitRadius > 0){
             ctx.strokeStyle = "#393900";
             drawBoostPath(radius, nextOrbitRadius, 1*angle_incriment/4);
@@ -62,6 +58,10 @@ function drawOrbit (radius, color, spaces, nextOrbitRadius) {
             drawBoostPath(radius, nextOrbitRadius, -1*angle_incriment/4);
             drawBoostPath(radius, nextOrbitRadius, -3*angle_incriment/4);
         }
+        
+        ctx.beginPath();
+        ctx.arc(radius, 0, 10*ctx.lineWidth, 0, 2*Math.PI);
+        ctx.fill();
     }
 }
 
