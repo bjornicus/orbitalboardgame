@@ -72,6 +72,11 @@ function drawBoostPath(currentRadius, targetRadius, targetRotationAngle ){
     ctx.moveTo(currentRadius,0);
     ctx.quadraticCurveTo(xctrl, yctrl, xnext,ynext);
     ctx.stroke();
+
+    // uncomment to visualize the control point
+    // ctx.beginPath();
+    // ctx.arc(xctrl, yctrl, 3*ctx.lineWidth, 0, 2*Math.PI);
+    // ctx.fill();
 }
 
 var firstOrbit = {radius: radius/4.25, segments: 4, color: "#ba4434"},
