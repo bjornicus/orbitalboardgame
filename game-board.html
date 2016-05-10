@@ -64,6 +64,10 @@ function drawOrbit (radius, color, spaces, nextOrbitRadius) {
 }
 
 function drawBoostPath(currentRadius, targetRadius, targetRotationAngle ){
+    function quadraticMidpoint(x0,x1,x2){
+        return .25*x0 + 0.5*x1 + 0.25*x2;
+    }
+
     xctrl = targetRadius*Math.cos(targetRotationAngle/2);
     yctrl = -targetRadius*Math.sin(targetRotationAngle/2);
     xnext = targetRadius*Math.cos(targetRotationAngle);
@@ -77,6 +81,12 @@ function drawBoostPath(currentRadius, targetRadius, targetRotationAngle ){
     // ctx.beginPath();
     // ctx.arc(xctrl, yctrl, 3*ctx.lineWidth, 0, 2*Math.PI);
     // ctx.fill();
+
+    xmid = quadraticMidpoint(currentRadius, xctrl, xnext);
+    ymid = quadraticMidpoint(0, yctrl, ynext);
+    ctx.beginPath();
+    ctx.arc(xmid, ymid, 3*ctx.lineWidth, 0, 2*Math.PI);
+    ctx.fill();
 }
 
 var firstOrbit = {radius: radius/4.25, segments: 4, color: "#ba4434"},
