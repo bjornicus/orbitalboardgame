@@ -64,8 +64,27 @@ function drawOrbit (radius, color, spaces, nextOrbitRadius) {
 }
 
 function drawBoostPath(currentRadius, targetRadius, targetRotationAngle ){
-    function quadraticMidpoint(x0,x1,x2){
-        return .25*x0 + 0.5*x1 + 0.25*x2;
+    function quadraticPoint(p0,p1,p2,t=0.5){
+        return t*t*p0 + t*p1 + t*t*p2;
+    }
+    function quadraticSlope(p0,p1,p2,t=0.5) {
+        return 2*(1-t)*(p1-p0) + 2*t*(p2-p1);
+    }
+    function drawArrowhead(locx, locy, angle, sizex, sizey) {
+        ctx.save();
+        var hx = sizex / 2;
+        var hy = sizey / 2;
+        ctx.translate((locx ), (locy));
+        ctx.rotate(angle);
+        ctx.translate(-hx,-hy);
+
+        ctx.beginPath();
+        ctx.moveTo(0,0);
+        ctx.lineTo(0,1*sizey);    
+        ctx.lineTo(1*sizex,1*hy);
+        ctx.closePath();
+        ctx.fill();
+        ctx.restore();
     }
 
     xctrl = targetRadius*Math.cos(targetRotationAngle/2);
@@ -82,11 +101,15 @@ function drawBoostPath(currentRadius, targetRadius, targetRotationAngle ){
     // ctx.arc(xctrl, yctrl, 3*ctx.lineWidth, 0, 2*Math.PI);
     // ctx.fill();
 
-    xmid = quadraticMidpoint(currentRadius, xctrl, xnext);
-    ymid = quadraticMidpoint(0, yctrl, ynext);
-    ctx.beginPath();
-    ctx.arc(xmid, ymid, 3*ctx.lineWidth, 0, 2*Math.PI);
-    ctx.fill();
+    xmid = quadraticPoint(currentRadius, xctrl, xnext);
+    ymid = quadraticPoint(0, yctrl, ynext);
+    dx = quadraticSlope(currentRadius, xctrl, xnext);
+    dy = quadraticSlope(0, yctrl, ynext);
+    // ctx.beginPath();
+    // ctx.moveTo(xmid, ymid);
+    // ctx.lineTo(xmid+dx/4, ymid+dy/4);
+    // ctx.stroke();
+    drawArrowhead(xmid, ymid, Math.atan2(dy, dx), 10*ctx.lineWidth, 10*ctx.lineWidth);
 }
 
 var firstOrbit = {radius: radius/4.25, segments: 4, color: "#ba4434"},
