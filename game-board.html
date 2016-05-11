@@ -50,7 +50,7 @@ function drawOrbit (radius, color, spaces, nextOrbitRadius, nextOrbitColor) {
 
         if (nextOrbitRadius > 0){
             ctx.strokeStyle = "#eee0b8";
-            drawBoostPath(radius, nextOrbitRadius, 1*angle_incriment/3, nextOrbitColor);
+            drawBoostPath(radius, nextOrbitRadius, 1*angle_incriment/4, nextOrbitColor);
             drawBoostPath(radius, nextOrbitRadius, 3*angle_incriment/4, nextOrbitColor);
             // ctx.strokeStyle = "#690000";
             drawBoostPath(radius, nextOrbitRadius, -1*angle_incriment/4, color, true);
@@ -89,24 +89,27 @@ function drawBoostPath(currentRadius, targetRadius, targetRotationAngle, arrowCo
         ctx.restore();
     }
 
-    xctrl = targetRadius*Math.cos(targetRotationAngle/2);
-    yctrl = -targetRadius*Math.sin(targetRotationAngle/2);
-    xnext = targetRadius*Math.cos(targetRotationAngle);
-    ynext = -targetRadius*Math.sin(targetRotationAngle);
+    let xstart = currentRadius, ystart = 0;
+    let xctrl = targetRadius*Math.cos(targetRotationAngle/2);
+    let yctrl = -targetRadius*Math.sin(targetRotationAngle/2);
+    let xnext = targetRadius*Math.cos(targetRotationAngle);
+    let ynext = -targetRadius*Math.sin(targetRotationAngle);
     ctx.beginPath();
-    ctx.moveTo(currentRadius,0);
-    ctx.quadraticCurveTo(xctrl, yctrl, xnext,ynext);
+    ctx.moveTo(xstart, ystart);
+    ctx.quadraticCurveTo(xctrl, yctrl, xnext, ynext);
     ctx.stroke();
 
-    // uncomment to visualize the control point
+    // // uncomment to visualize the control points
     // ctx.beginPath();
     // ctx.arc(xctrl, yctrl, 3*ctx.lineWidth, 0, 2*Math.PI);
+    // ctx.arc(xctrl, yctrl, 3*ctx.lineWidth, 0, 2*Math.PI);
+    // ctx.arc(xnext, ynext, 3*ctx.lineWidth, 0, 2*Math.PI);
     // ctx.fill();
 
-    xmid = quadraticPoint(currentRadius, xctrl, xnext);
-    ymid = quadraticPoint(0, yctrl, ynext);
-    dx = quadraticSlope(currentRadius, xctrl, xnext);
-    dy = quadraticSlope(0, yctrl, ynext);
+    xmid = quadraticPoint(xstart, xctrl, xnext);
+    ymid = quadraticPoint(ystart, yctrl, ynext);
+    dx = quadraticSlope(xstart, xctrl, xnext);
+    dy = quadraticSlope(ystart, yctrl, ynext);
     drawArrowhead(xmid, ymid, Math.atan2(dy, dx), 10*ctx.lineWidth, 10*ctx.lineWidth);
 
     // this will draw a tangent to the curve at (xmid,ymid)
