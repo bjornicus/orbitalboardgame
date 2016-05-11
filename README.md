@@ -1,35 +1,25 @@
 # orbitalboardgame
+
 Objective 
 
 Collect and transport critical resources to construct an interstellar transport while defending the solar system against invaders. 
 
- 
-
 Setup 
 
-    Place the four planets in their orbits (at a random location) 
-
-    Place 4 ships in orbit on the second planet (the home planet) 
-
-    Choose who will start the first round and put the "go first" token in front of them 
-
-    Pull out face cards, shuffle the rest then divide into three piles. Shuffle two face cards into pile one, four into pile two, and six into pile three. Stack the piles with pile three on bottom and pile one on top to form the draw pile. 
-
- 
+1. Place the four planets in their orbits (at a random location) 
+1. Place 4 ships in orbit on the second planet (the home planet) 
+1. Choose who will start the first round and put the "go first" tn in front of them 
+1. Pull out face cards, shuffle the rest then divide into three ps. Shuffle two face cards into pile oe, four into pile two, and six into pile three. Stack the piles with pile three on bom and pile one on top to form the draw pile. 
 
 Each Turn  
 
-    Draw a card (and add invaders if it says so) 
-
-    If you are at the home planet, or at the appropriate refit depot, you may re-outfit your ship for a different role ( mining, engineer, or interceptor) 
-
-    Re-fuel your ship (if at the home planet or fuel depot) 
-
-    Exchange fuel, cards, or resources with other ships on your same space. 
-
-    Move your ship 
-
-    Perform special actions 
+1. Draw a card (and add invaders if it says so) 
+1. Do any of the following:
+    * If you are at the home planet, or at the appropriate refit depot, you may re-outfit your ship for a different role ( mining, engineer, or interceptor) 
+    * Re-fuel your ship (if at the home planet or fuel depot) 
+    * Exchange fuel, cards, or resources with other ships on your same space. 
+    * Move your ship (once per turn)
+    * Perform special actions (one per action card)
 
  
 
