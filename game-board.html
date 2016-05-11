@@ -64,10 +64,10 @@ function drawOrbit (radius, color, spaces, nextOrbitRadius) {
 }
 
 function drawBoostPath(currentRadius, targetRadius, targetRotationAngle ){
-    function quadraticPoint(p0,p1,p2,t=0.5){
-        return t*t*p0 + t*p1 + t*t*p2;
+    function quadraticPoint(p0,p1,p2,t=0.4){
+        return Math.pow(1-t, 2)*p0 + 2*(1-t)*t*p1 + Math.pow(t, 2)*p2;
     }
-    function quadraticSlope(p0,p1,p2,t=0.5) {
+    function quadraticSlope(p0,p1,p2,t=0.4) {
         return 2*(1-t)*(p1-p0) + 2*t*(p2-p1);
     }
     function drawArrowhead(locx, locy, angle, sizex, sizey) {
@@ -105,11 +105,13 @@ function drawBoostPath(currentRadius, targetRadius, targetRotationAngle ){
     ymid = quadraticPoint(0, yctrl, ynext);
     dx = quadraticSlope(currentRadius, xctrl, xnext);
     dy = quadraticSlope(0, yctrl, ynext);
+    drawArrowhead(xmid, ymid, Math.atan2(dy, dx), 10*ctx.lineWidth, 10*ctx.lineWidth);
+
+    // this will draw a tangent to the curve at (xmid,ymid)
     // ctx.beginPath();
     // ctx.moveTo(xmid, ymid);
     // ctx.lineTo(xmid+dx/4, ymid+dy/4);
     // ctx.stroke();
-    drawArrowhead(xmid, ymid, Math.atan2(dy, dx), 10*ctx.lineWidth, 10*ctx.lineWidth);
 }
 
 var firstOrbit = {radius: radius/4.25, segments: 4, color: "#ba4434"},
