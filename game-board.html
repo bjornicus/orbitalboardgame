@@ -37,7 +37,7 @@ function resetTransform() {
     ctx.setTransform(1, 0, 0, 1, center, center);
 }
 
-function drawOrbit (radius, color, spaces, nextOrbitRadius) {
+function drawOrbit (radius, color, spaces, nextOrbitRadius, nextOrbitColor) {
     ctx.strokeStyle = "#005fc2";
     ctx.beginPath();
     ctx.arc(0,0,radius,0,2*Math.PI);
@@ -50,11 +50,11 @@ function drawOrbit (radius, color, spaces, nextOrbitRadius) {
 
         if (nextOrbitRadius > 0){
             ctx.strokeStyle = "#eee0b8";
-            drawBoostPath(radius, nextOrbitRadius, 1*angle_incriment/4);
-            drawBoostPath(radius, nextOrbitRadius, 3*angle_incriment/4);
+            drawBoostPath(radius, nextOrbitRadius, 1*angle_incriment/3, nextOrbitColor);
+            drawBoostPath(radius, nextOrbitRadius, 3*angle_incriment/4, nextOrbitColor);
             // ctx.strokeStyle = "#690000";
-            drawBoostPath(radius, nextOrbitRadius, -1*angle_incriment/4);
-            drawBoostPath(radius, nextOrbitRadius, -3*angle_incriment/4);
+            drawBoostPath(radius, nextOrbitRadius, -1*angle_incriment/4, color, true);
+            drawBoostPath(radius, nextOrbitRadius, -3*angle_incriment/4, color, true);
         }
 
         ctx.beginPath();
@@ -63,7 +63,7 @@ function drawOrbit (radius, color, spaces, nextOrbitRadius) {
     }
 }
 
-function drawBoostPath(currentRadius, targetRadius, targetRotationAngle ){
+function drawBoostPath(currentRadius, targetRadius, targetRotationAngle, arrowColor, reverseArrow=false){
     function quadraticPoint(p0,p1,p2,t=0.4){
         return Math.pow(1-t, 2)*p0 + 2*(1-t)*t*p1 + Math.pow(t, 2)*p2;
     }
@@ -72,10 +72,12 @@ function drawBoostPath(currentRadius, targetRadius, targetRotationAngle ){
     }
     function drawArrowhead(locx, locy, angle, sizex, sizey) {
         ctx.save();
+        ctx.fillStyle = arrowColor;
         var hx = sizex / 2;
         var hy = sizey / 2;
+        var arrowAngle = reverseArrow ? angle + Math.PI : angle;
         ctx.translate((locx ), (locy));
-        ctx.rotate(angle);
+        ctx.rotate(arrowAngle);
         ctx.translate(-hx,-hy);
 
         ctx.beginPath();
@@ -122,11 +124,11 @@ fourthOrbit = { radius: thirdOrbit.radius * 1.587, segments: thirdOrbit.segments
 resetTransform();
 
 ctx.rotate(Math.PI/4);
-drawOrbit(firstOrbit.radius, firstOrbit.color, firstOrbit.segments,  secondOrbit.radius);
+drawOrbit(firstOrbit.radius, firstOrbit.color, firstOrbit.segments,  secondOrbit.radius, secondOrbit.color);
 ctx.rotate(Math.PI/secondOrbit.segments);
-drawOrbit(secondOrbit.radius, secondOrbit.color, secondOrbit.segments, thirdOrbit.radius);
+drawOrbit(secondOrbit.radius, secondOrbit.color, secondOrbit.segments, thirdOrbit.radius, thirdOrbit.color);
 ctx.rotate(Math.PI/thirdOrbit.segments);
-drawOrbit(thirdOrbit.radius, thirdOrbit.color, thirdOrbit.segments, fourthOrbit.radius);
+drawOrbit(thirdOrbit.radius, thirdOrbit.color, thirdOrbit.segments, fourthOrbit.radius, fourthOrbit.color);
 ctx.rotate(Math.PI/fourthOrbit.segments);
 drawOrbit(fourthOrbit.radius, fourthOrbit.color, fourthOrbit.segments, 0);
 
