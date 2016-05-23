@@ -25,9 +25,7 @@ Collect and transport critical resources to construct an interstellar transport 
 
 ##Each Round 
 
-1. Move invader ships one space closer to their target planet (first in to the target orbit then around that orbit) 
-    If an invader reaches a planet, that planet becomes infested and is no longer usable. 
-    If an invader's target planet is already infested at the beginning of the invader movement phase (i.e. before any invaders have moved this round), it targets the home planet 
+1. Move infestor pieces. 
 1. Orbit all ships, planets, stations, and aliens counter clockwise 
 1. Move "go first" token clockwise to the next player 
 
@@ -76,6 +74,14 @@ Heavy boost
 Metals can be found in the inner ring 
 Helium is found in the third ring 
 Water is found in the outer ring 
+
+##Infestors
+###Adding
+When an infestor card is drawn, take an infestor token of the corresponding color and peace it on the board at the infestation point on the outermost orbit closest to the player who drew the card
+###Moving
+Investors move one space per round closer to their target planet (first in to the target orbit then around that orbit) 
+    If an invader reaches a planet, that planet becomes infested and is no longer usable. 
+    If an invader's target planet is already infested at the beginning of the invader movement phase (i.e. before any invaders have moved this round), it targets the home planet.
 
 ##Winning 
 
