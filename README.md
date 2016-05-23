@@ -45,7 +45,6 @@ If you have too much cargo to move with your remaining fuel, you will need to du
 ##Special actions (one card per action) 
 
 Mining ship:  
-
     Search the empty (no planets, depots, or invaders) space your ship occupies for resources by Rolling the die. A resource is discovered if the number rolled is less than or equal to the orbit number (e.g. 1 for innermost, 4 four outermost)  
         If a resource is discovered, place the resource in your cargo hold 
     Extract resources from the planet you are orbiting (if not infested). One resource per card 
@@ -81,7 +80,6 @@ Water is found in the outer ring
 ##Winning 
 
 Successfully harvest and transport resources to the interstellar transport site: 
-
     Easy: 4 water and 2 metals 
     Normal: 6 water and 3 metals  
     Hard: 8 water and 4 metals  
