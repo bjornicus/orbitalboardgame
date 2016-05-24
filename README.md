@@ -40,7 +40,7 @@ Maneuvers within the same orbit follow the green lines.
 If you have too much cargo to move with your remaining fuel, you will need to dump some it or transfer it to another ship or storage depot on your same space and move without it.  
 
 ##Special actions (one card per action) 
-Mining ship:  
+###Mining ship:  
 * Search the empty (no planets, depots, or invaders) space your ship occupies for resources by Rolling the die. A resource is discovered if the number rolled is less than or equal to the orbit number (e.g. 1 for innermost, 4 four outermost)  
     * If a resource is discovered, place the resource in your cargo hold 
 * Extract resources from the planet you are orbiting (if not infested). One resource per card 
