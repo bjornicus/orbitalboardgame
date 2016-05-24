@@ -43,31 +43,31 @@ If you have too much cargo to move with your remaining fuel, you will need to du
 ##Special actions (one card per action) 
 
 Mining ship:  
-    Search the empty (no planets, depots, or invaders) space your ship occupies for resources by Rolling the die. A resource is discovered if the number rolled is less than or equal to the orbit number (e.g. 1 for innermost, 4 four outermost)  
-        If a resource is discovered, place the resource in your cargo hold 
-    Extract resources from the planet you are orbiting (if not infested). One resource per card 
-        Water from the outermost planet 
-        Metals from the innermost planet 
-        Helium 3 from the third planet 
-    Build a depot on the empty space your ship occupies  
-        Fuel depot cost: 2 He + 1 metal 
-        Storage depot cost: 1 metal 
+* Search the empty (no planets, depots, or invaders) space your ship occupies for resources by Rolling the die. A resource is discovered if the number rolled is less than or equal to the orbit number (e.g. 1 for innermost, 4 four outermost)  
+    * If a resource is discovered, place the resource in your cargo hold 
+* Extract resources from the planet you are orbiting (if not infested). One resource per card 
+    * Water from the outermost planet 
+    * Metals from the innermost planet 
+    * Helium 3 from the third planet 
+* Build a depot on the empty space your ship occupies  
+    * Fuel depot cost: 2 He + 1 metal 
+    * Storage depot cost: 1 metal 
 
 Engineer: 
-    Build: 
-        Interstellar transport (see winning) 
-        weapon depot (1 water +1 metals +1 helium 3) converts ships to interceptors 
-        Mining depot converts ships to mining or prospecting (2 water + 1 metal) 
-    Convert any constructed station back into its component resources 
-    Refit any ship on the same space (including your own) 
+* Build: 
+    * Interstellar transport (see winning) 
+    * weapon depot (1 water +1 metals +1 helium 3) converts ships to interceptors 
+    * Mining depot converts ships to mining or prospecting (2 water + 1 metal) 
+* Convert any constructed station back into its component resources 
+* Refit any ship on the same space (including your own) 
 
 Interceptor:  
-    Destroy an invader ship on the same space (at any time, it need not be your turn) 
-    Move an extra space 
+* Destroy an invader ship on the same space (at any time, it need not be your turn) 
+* Move an extra space 
 
-Heavy boost  
-    Heavy boost ships have 2X the carrying capacity of other ships. 
-    Boost a station you are docked to a new orbit for a cost of 3 fuel.  Your ship does not  move with the station 
+Heavy boost
+* Heavy boost ships have 2X the carrying capacity of other ships. 
+* Boost a station you are docked to a new orbit for a cost of 3 fuel.  Your ship does not  move with the station 
 
 ##Resources 
 
