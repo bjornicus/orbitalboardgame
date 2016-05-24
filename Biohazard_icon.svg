@@ -12,10 +12,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    width="600"
-   height="525"
+   height="600"
    id="svg3069"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Biohazard.svg">
+   sodipodi:docname="Biohazard_icon.svg">
   <metadata
      id="metadata3085">
     <rdf:RDF>
@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -42,7 +42,7 @@
      id="namedview3083"
      showgrid="false"
      inkscape:zoom="0.95047619"
-     inkscape:cx="300"
+     inkscape:cx="174.7996"
      inkscape:cy="178.33166"
      inkscape:window-x="55"
      inkscape:window-y="24"
@@ -51,16 +51,18 @@
   <defs
      id="defs3073">
     <path
-       d="M 2.8117,-1.046 A 3 3 0 0 1 .5,2.958 V 4.5119 A 10.5 10.5 0 0 1 2,25.3078 V 25.8661 A 15 15 0 0 0 14.7975,8.5433 15 15 0 0 0 23.4007,-11.201 L 22.9172,-10.9218 A 10.5 10.5 0 0 1 4.1574,-1.8229 z M 6.2265,7.825 A 10 10 0 0 1 -6.2265,7.825 9.5 9.5 0 0 0 -8.4021,10.5667 13.5 13.5 0 0 0 8.4021,10.5667 10 10 0 0 0 6.2265,7.825 z"
+       d="M 2.8117,-1.046 A 3,3 0 0 1 0.5,2.958 V 4.5119 A 10.5,10.5 0 0 1 2,25.3078 v 0.5583 A 15,15 0 0 0 14.7975,8.5433 15,15 0 0 0 23.4007,-11.201 l -0.4835,0.2792 A 10.5,10.5 0 0 1 4.1574,-1.8229 z m 3.4148,8.871 a 10,10 0 0 1 -12.453,0 9.5,9.5 0 0 0 -2.1756,2.7417 13.5,13.5 0 0 0 16.8042,0 A 10,10 0 0 0 6.2265,7.825 z"
        id="p"
-       transform="scale(10,-10) translate(26,-26)" />
+       transform="matrix(10,0,0,-10,260,260)"
+       inkscape:connector-curvature="0" />
   </defs>
   <g
      id="g3396"
      inkscape:transform-center-x="162.02405"
-     inkscape:transform-center-y="9.4689379">
+     inkscape:transform-center-y="9.4689379"
+     transform="translate(0,75)">
     <g
-       transform="matrix(0.675,0,0,0.675,123.81869,104.52423)"
+       transform="matrix(0.675,0,0,0.675,124.50005,67.6104)"
        id="biohazard">
       <use
          height="1"
