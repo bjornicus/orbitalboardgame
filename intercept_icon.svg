@@ -15,7 +15,10 @@
    height="600"
    id="svg3069"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="intercept_icon.svg">
+   sodipodi:docname="intercept_icon.svg"
+   inkscape:export-filename="/home/bjorn/Documents/SpaceJourney/intercept_icon.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <metadata
      id="metadata3085">
     <rdf:RDF>
@@ -43,7 +46,7 @@
      showgrid="false"
      inkscape:zoom="1"
      inkscape:cx="183.46737"
-     inkscape:cy="240.84436"
+     inkscape:cy="200.84436"
      inkscape:window-x="55"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
