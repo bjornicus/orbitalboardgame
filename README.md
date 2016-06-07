@@ -76,7 +76,7 @@ Water is found in the outer ring
 ###Adding
 When an infestor card is drawn, take an infestor token of the corresponding color and peace it on the board at the infestation point on the outermost orbit closest to the player who drew the card
 ###Moving
-Investors move one space per round closer to their target planet (first in to the target orbit then around that orbit) 
+Infestors move one space per round closer to their target planet (first in to the target orbit then around that orbit) 
 
 If an invader reaches a planet, that planet becomes infested and is no longer usable. 
 
