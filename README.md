@@ -86,6 +86,10 @@ Hard: 8 water and 4 metals
 ##Losing 
 The home planet becomes infested or the players are unable to gather sufficient resources 
 
-
-##Creative Commons Artwork Credits
-Card Backs - Rocket by Gem.icons from the Noun Project
+##Creative Commons Artwork Credits from the Noun Project
+Card Backs - Rocket by Gem.icons
+Action cards: 
+ - Heavy lift rocket by by Christelle Mozzati
+ - Welding torch by Mac Cormier
+ - Astronaught by Gem.icons
+Fuel depot by Carlos Salgado
