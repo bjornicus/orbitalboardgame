@@ -4,34 +4,39 @@
 Collect and transport critical resources to construct an interstellar transport while defending the solar system against invaders. 
 
 ##Setup 
-1. Place the four planets in their orbits (at a random location) 
-1. Place all of the player's ships in orbit on the second planet (the home planet) 
-1. Pull out the infstor cards and shuffle them, and divide the rest into three piles. Shuffle two infestor cards into pile one, four into pile two, and six into pile three. Stack the piles with pile three on bottom and pile one on top to form the draw pile. 
+1. Place the four planets somewhere in their orbits respective orbits: metal planet (red) in the innermost orbit, home planet (earthlike) in the second orbit, helium planet (gas giant) in the third orbit, and ice planet in the outermont orbit.
+1. Place all of the player's ships in orbit on the home planet.
+1. Fuel up the ships by filling all of the spots on each player's ship mats with fuel tokens.
+1. Separate 12 the infestor cards from the rest of the deck and shuffle them. Divide the rest of the deck (which now should contain only action cards) into three piles of 12. Shuffle two infestor cards into pile one, four into pile two, and six into pile three. Stack the piles with pile three on bottom and pile one on top to form the draw pile. 
 
 ##Each Turn  
-1. Draw a card (and add invaders if it says so) 
+1. Draw a card.  If it is an infestor card add an infestor to the board (See 'Infestors' section for details).  If it is an action card, keep it until you wish to use it to perform a special action (you may save it for a later turn if you like). 
 1. Do any of the following:
-    * If you are at the home planet, or a refit depot, you may re-outfit your ship for a different role ( mining, engineer, interceptor, or heavy lift) 
+    * If you are at the home planet, or a refit depot, you may re-outfit your ship for a different class.  To re-outfit simply choose the class you would like and place that classes marker on your ship mat (removing the previous one).  Available classs are miner, engineer, interceptor, or heavy lift.
     * Re-fuel your ship (if at the home planet or fuel depot) 
     * Exchange fuel, cards, or resources with other ships on your same space. 
     * Move your ship (once per turn)
-    * Perform special actions (one per action card)
+    * Perform special actions specific to your ship's class (one per action card)
 
 ##Each Round 
-1. Move infestor pieces. 
-1. Orbit all ships, planets, stations, and infestors counter clockwise 
+Once all players have taken a turn, the round ends. At the end of a round:
+1. Orbit everything (all ships, planets, stations, and infestors) counter clockwise 
+1. Move infestor pieces (see 'Infestor' section). 
 
 ##Ship movement 
-Move one space per turn (except interceptors, see below).
+Move one space per turn (except interceptors, see Interceptor special actions).
 
 Movement costs are as follows: 
-* Orbital transfer maneuver (changing orbits) - ½ of your total weight (fuel + cargo units) 
+* Orbital transfer maneuver (changing orbits) - ½ of your total weight (fuel + cargo units currently on board your ship) 
 * Orbital transfers into planetary orbit - ¼ of your total ship weight 
 * Orbital transit (within the same orbit)- 1 fuel unit 
 
+When computing fuel costs, always round any fractional result up to the next whole number.
+
 If you have too much cargo to move with your remaining fuel, you will need to dump some of it or transfer it to another ship or storage depot on your same space and move without it.  
 
-##Special actions (one card per action) 
+##Special actions
+You may perform as many special actions as you like on your turn, provided you have cards for them. For each action you must discard one action card to perform that action. 
 ###Mining ship:  
 * Search the empty (no planets, depots, or invaders) space your ship occupies for resources by Rolling the die. A resource is discovered if the number rolled is less than or equal to the orbit number (e.g. 1 for innermost, 4 four outermost)  
     * If a resource is discovered, place a matching resource token in your cargo hold
@@ -66,9 +71,9 @@ Water is found in the outer ring
 
 ##Infestors
 ###Adding
-When an infestor card is drawn, take an infestor token of the corresponding color and peace it on the board at the infestation point on the outermost orbit closest to the player who drew the card
+When an infestor card is drawn, take an infestor token of the corresponding color and place it on the board at the infestation point on the outermost orbit closest to where the player who drew the card is sitting.
 ###Moving
-Infestors move one space per round closer to their target planet (first in to the target orbit then around that orbit) 
+Infestors move one space per round closer to their target planet (first in to the target orbit then around that orbit). When moving around an orbit, the infestor will take the shortest path to the planet, peferring the orbital direction (counter clockwise) in the case where either direction is the same distance to the planet. 
 
 If an infestor reaches a planet, that planet becomes infested and is no longer usable. 
 
