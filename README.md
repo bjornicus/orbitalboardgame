@@ -6,10 +6,10 @@ Collect and transport critical resources to construct an interstellar transport 
 ##Parts
 * One Game Board.
 * Four Planets - 
-Metal: <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/metal-planet-mini-tile.png" width="100" height="100" /> 
-Home: <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/home-planet-mini-tile.png" width="100" height="100" />
-Heluim: <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/helium-planet-mini-tile.png" width="100" height="100" />
-Ice: <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ice-planet-mini-tile.png" width="100" height="100" />
+Metal: <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/metal-planet-mini-tile.png" width="100" height="100" style="border-radius: 50%"/> 
+Home: <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/home-planet-mini-tile.png" width="100" height="100" style="border-radius: 50%"/>
+Heluim: <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/helium-planet-mini-tile.png" width="100" height="100" style="border-radius: 50%"/>
+Ice: <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ice-planet-mini-tile.png" width="100" height="100" style="border-radius: 50%"/>
 * Six Rocket Ships with corresponding ship mats 
 <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ship-card-red.png" width="100" height="100" /> 
 <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ship-card-green.png" width="100" height="100" /> 
@@ -19,11 +19,11 @@ Ice: <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ice-pla
 <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ship-card-purple.png" width="100" height="100" />
 * 12 infector cards (three of each type) <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/metal-infestor-card.png" width="100" height="100" /> <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/home-infestor-card.png" width="100" height="100" /> <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/helium-infestor-card.png" width="100" height="100" /> <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ice-infestor-card.png" width="100" height="100" />
 and 36 action cards <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/action-card.png" width="100" height="100" />
-* Fuel Tokens <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/fuel-token.png" width="50" height="50" />
+* Fuel Tokens <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/fuel-token.png" width="50" height="50" style="border-radius: 50%"/>
 * Resource Tokens 
-<img src="https://github.com/bjornicus/orbitalboardgame/blob/master/metal-token.png" width="50" height="50" />
-<img src="https://github.com/bjornicus/orbitalboardgame/blob/master/helium-token.png" width="50" height="50" />
-<img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ice-token.png" width="50" height="50" />
+<img src="https://github.com/bjornicus/orbitalboardgame/blob/master/metal-token.png" width="50" height="50" style="border-radius: 50%"/>
+<img src="https://github.com/bjornicus/orbitalboardgame/blob/master/helium-token.png" width="50" height="50" style="border-radius: 50%"/>
+<img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ice-token.png" width="50" height="50" style="border-radius: 50%"/>
 
 
 ##Setup 
