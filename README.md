@@ -4,24 +4,26 @@
 Collect and transport critical resources to construct an interstellar transport while defending the solar system against invaders. 
 
 ##Setup 
-1. Place the four planets somewhere in their orbits respective orbits: metal planet (red) in the innermost orbit, home planet (earthlike) in the second orbit, helium planet (gas giant) in the third orbit, and ice planet in the outermont orbit.
+1. Place the four planets somewhere in their respective orbits: metal planet (red) in the innermost orbit, home planet (earthlike) in the second orbit, helium planet (gas giant) in the third orbit, and ice planet in the outermont orbit.
 1. Place all of the player's ships in orbit on the home planet.
 1. Fuel up the ships by filling all of the spots on each player's ship mats with fuel tokens.
 1. Separate 12 the infestor cards from the rest of the deck and shuffle them. Divide the rest of the deck (which now should contain only action cards) into three piles of 12. Shuffle two infestor cards into pile one, four into pile two, and six into pile three. Stack the piles with pile three on bottom and pile one on top to form the draw pile. 
 
-##Each Turn  
+##Rounds
+A round of play consists of the following:
+1. Infestor movement turn: move each infestor piece towards its target planet (see 'Infestor' section).
+1. Player turns: each player takes a turn as described below. 
+1. Orbit everything (all ships, planets, stations, and infestors) counter clockwise 
+
+##Player Turns
+Each player, on their turn takes the following steps:
 1. Draw a card.  If it is an infestor card add an infestor to the board (See 'Infestors' section for details).  If it is an action card, keep it until you wish to use it to perform a special action (you may save it for a later turn if you like). 
-1. Do any of the following:
+1. Do any or all of the following:
     * If you are at the home planet, or a refit depot, you may re-outfit your ship for a different class.  To re-outfit simply choose the class you would like and place that classes marker on your ship mat (removing the previous one).  Available classs are miner, engineer, interceptor, or heavy lift.
     * Re-fuel your ship (if at the home planet or fuel depot) 
     * Exchange fuel, cards, or resources with other ships on your same space. 
     * Move your ship (once per turn)
     * Perform special actions specific to your ship's class (one per action card)
-
-##Each Round 
-Once all players have taken a turn, the round ends. At the end of a round:
-1. Orbit everything (all ships, planets, stations, and infestors) counter clockwise 
-1. Move infestor pieces (see 'Infestor' section). 
 
 ##Ship movement 
 Move one space per turn (except interceptors, see Interceptor special actions).
@@ -57,7 +59,7 @@ You may perform as many special actions as you like on your turn, provided you h
 * Refit any ship on the same space (including your own) 
 
 ###Interceptor:  
-* Destroy an invader ship on the same space (at any time, it need not be your turn) 
+* Destroy an invader ship on the same space.
 * Move an extra space 
 
 ###Heavy lift
