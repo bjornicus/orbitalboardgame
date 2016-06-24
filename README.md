@@ -11,8 +11,8 @@ Home: <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/home-p
 Heluim: <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/helium-planet-mini-tile.png" width="100" height="100" />
 Ice: <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ice-planet-mini-tile.png" width="100" height="100" />
 * Six Rocket Ships
-* 12 infector cards (three of each type) - <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/metal-infestor-card.png" width="100" height="100" /> <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/helium-infestor-card.png" width="100" height="100" /> <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ice-infestor-card.png" width="100" height="100" />
-and 36 action cards - <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/action-card.png" width="100" height="100" />
+* 12 infector cards (three of each type) <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/metal-infestor-card.png" width="100" height="100" /> <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/home-infestor-card.png" width="100" height="100" /> <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/helium-infestor-card.png" width="100" height="100" /> <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ice-infestor-card.png" width="100" height="100" />
+and 36 action cards <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/action-card.png" width="100" height="100" />
 
 ##Setup 
 1. Place the four planets somewhere in their respective orbits: metal planet (red) in the innermost orbit, home planet (earthlike) in the second orbit, helium planet (gas giant) in the third orbit, and ice planet in the outermont orbit.
