@@ -19,7 +19,11 @@ Ice: <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ice-pla
 <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ship-card-purple.png" width="100" height="100" />
 * 12 infector cards (three of each type) <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/metal-infestor-card.png" width="100" height="100" /> <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/home-infestor-card.png" width="100" height="100" /> <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/helium-infestor-card.png" width="100" height="100" /> <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ice-infestor-card.png" width="100" height="100" />
 and 36 action cards <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/action-card.png" width="100" height="100" />
-* Fuel Tokens <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/fuel-token.png" />
+* Fuel Tokens <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/fuel-token.png" width="50" height="50" />
+* Resource Tokens 
+<img src="https://github.com/bjornicus/orbitalboardgame/blob/master/metal-token.png" width="50" height="50" />
+<img src="https://github.com/bjornicus/orbitalboardgame/blob/master/helium-token.png" width="50" height="50" />
+<img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ice-token.png" width="50" height="50" />
 
 
 ##Setup 
