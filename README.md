@@ -4,7 +4,7 @@
 Collect and transport critical resources to construct an interstellar transport while defending the solar system against invaders. 
 
 ##Setup 
-1. Place the four planets somewhere in their orbits respective orbits: metal planet (red) in the innermost orbit, home planet (earthlike) in the second orbit, helium planet (gas giant) in the third orbit, and ice planet in the outermont orbit.
+1. Place the four planets somewhere in their respective orbits: metal planet (red) in the innermost orbit, home planet (earthlike) in the second orbit, helium planet (gas giant) in the third orbit, and ice planet in the outermont orbit.
 1. Place all of the player's ships in orbit on the home planet.
 1. Fuel up the ships by filling all of the spots on each player's ship mats with fuel tokens.
 1. Separate 12 the infestor cards from the rest of the deck and shuffle them. Divide the rest of the deck (which now should contain only action cards) into three piles of 12. Shuffle two infestor cards into pile one, four into pile two, and six into pile three. Stack the piles with pile three on bottom and pile one on top to form the draw pile. 
