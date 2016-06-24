@@ -15,8 +15,8 @@
    id="svg4019"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="game-logo.svg"
-   inkscape:export-filename="/home/bjorn/Documents/SpaceJourney/game-logo.png"
+   sodipodi:docname="shop-add.svg"
+   inkscape:export-filename="/home/bjorn/Documents/SpaceJourney/shop-add.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -37,7 +37,7 @@
      pagecolor="#000c18"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
      inkscape:cx="95.420211"
@@ -69,7 +69,7 @@
      transform="translate(0,-927.36218)">
     <g
        id="g4993"
-       transform="translate(-2.828426,71.263205)">
+       transform="matrix(0.45606581,0,0,0.45606581,8.8985348,603.30607)">
       <g
          id="text4027"
          style="font-size:64px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0e84b7;fill-opacity:1;stroke:none;font-family:Nasa;-inkscape-font-specification:Nasa">
@@ -144,7 +144,7 @@
     </g>
     <g
        id="g4983"
-       transform="matrix(0.96592583,0.25881905,-0.25881905,0.96592583,153.90631,863.09804)"
+       transform="matrix(0.98867516,0.2649147,-0.2649147,0.98867516,60.648756,882.0336)"
        style="fill:#b7960e;fill-opacity:1">
       <g
          id="g4989"
