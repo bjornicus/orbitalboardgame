@@ -4,7 +4,7 @@
 Collect and transport critical resources to construct an interstellar transport while defending the solar system against invaders. 
 
 ##Parts
-Heluim Planet ![Helium Planet](https://github.com/bjornicus/orbitalboardgame/blob/master/helium-planet-mini-tile.png =100x)
+Heluim Planet ![Helium Planet](https://github.com/bjornicus/orbitalboardgame/blob/master/helium-planet-mini-tile.png =100x100)
 
 ##Setup 
 1. Place the four planets somewhere in their respective orbits: metal planet (red) in the innermost orbit, home planet (earthlike) in the second orbit, helium planet (gas giant) in the third orbit, and ice planet in the outermont orbit.
