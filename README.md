@@ -11,7 +11,7 @@ Home: <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/home-p
 Heluim: <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/helium-planet-mini-tile.png" width="100" height="100" />
 Ice: <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ice-planet-mini-tile.png" width="100" height="100" />
 * Six Rocket Ships with corresponding ship mats 
-<img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ship-card-reg.png" width="100" height="100" /> 
+<img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ship-card-red.png" width="100" height="100" /> 
 <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ship-card-green.png" width="100" height="100" /> 
 <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ship-card-blue.png" width="100" height="100" /> 
 <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ship-card-yellow.png" width="100" height="100" /> 
@@ -19,6 +19,7 @@ Ice: <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ice-pla
 <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ship-card-purple.png" width="100" height="100" />
 * 12 infector cards (three of each type) <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/metal-infestor-card.png" width="100" height="100" /> <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/home-infestor-card.png" width="100" height="100" /> <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/helium-infestor-card.png" width="100" height="100" /> <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ice-infestor-card.png" width="100" height="100" />
 and 36 action cards <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/action-card.png" width="100" height="100" />
+* Fuel Tokens <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/fuel-token.png" />
 
 
 ##Setup 
