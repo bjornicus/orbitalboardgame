@@ -17,6 +17,10 @@ Ice: <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ice-pla
 <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ship-card-yellow.png" width="100" height="100" /> 
 <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ship-card-orange.png" width="100" height="100" /> 
 <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ship-card-purple.png" width="100" height="100" />
+* Nine ship class markers (with one of three class indicator on each side)
+<img src="https://github.com/bjornicus/orbitalboardgame/blob/master/class-marker1.png" width="100" height="100" style="border-radius: 50%" />
+<img src="https://github.com/bjornicus/orbitalboardgame/blob/master/class-marker2.png" width="100" height="100" style="border-radius: 50%" />
+<img src="https://github.com/bjornicus/orbitalboardgame/blob/master/class-marker3.png" width="100" height="100" style="border-radius: 50%" />
 * 12 infector cards (three of each type) <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/metal-infestor-card.png" width="100" height="100" /> <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/home-infestor-card.png" width="100" height="100" /> <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/helium-infestor-card.png" width="100" height="100" /> <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ice-infestor-card.png" width="100" height="100" />
 and 36 action cards <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/action-card.png" width="100" height="100" />
 * Fuel Tokens <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/fuel-token.png" width="50" height="50" style="border-radius: 50%"/>
