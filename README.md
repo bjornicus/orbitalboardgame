@@ -58,6 +58,8 @@ Ice: <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/mast
 <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/infestor-helium.png" width="50" height="50" class="circle" />
 <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/infestor-ice.png" width="50" height="50" class="circle" />
 
+###A six sided die
+
 ##Setup 
 1. Place the four planets somewhere in their respective orbits: metal planet (red) in the innermost orbit, home planet (earthlike) in the second orbit, helium planet (gas giant) in the third orbit, and ice planet in the outermont orbit.
 1. Place all of the player's ships in orbit on the home planet.
