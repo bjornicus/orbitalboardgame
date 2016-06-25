@@ -6,37 +6,53 @@
 Collect and transport critical resources to construct an interstellar transport while defending the solar system against invaders. 
 
 ##Parts
-* One Game Board
-* Four Planets - 
+
+###One Game Board
+<img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/game-board-thumbnail.png" width="200" height="200" /> 
+
+###Four Planets
 Metal: <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/metal-planet-mini-tile.png" width="100" height="100" class="circle" /> 
 Home: <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/home-planet-mini-tile.png" width="100" height="100" class="circle" />
 Heluim: <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/helium-planet-mini-tile.png" width="100" height="100" class="circle" />
 Ice: <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/ice-planet-mini-tile.png" width="100" height="100" class="circle" />
-* Six Rocket Ships with corresponding ship mats 
+
+###Six Rocket Ships with corresponding ship mats 
 <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/ship-card-red.png" width="100" height="100" /> 
 <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/ship-card-green.png" width="100" height="100" /> 
 <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/ship-card-blue.png" width="100" height="100" /> 
 <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/ship-card-yellow.png" width="100" height="100" /> 
 <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/ship-card-orange.png" width="100" height="100" /> 
 <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/ship-card-purple.png" width="100" height="100" />
-* Nine ship class markers (with one of three class indicator on each side)
+
+###Nine ship class markers (with one of three class indicator on each side)
 <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/class-marker1.png" width="100" height="100" class="circle" />
 <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/class-marker2.png" width="100" height="100" class="circle" />
 <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/class-marker3.png" width="100" height="100" class="circle" />
-* 12 infector cards (three of each type) <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/metal-infestor-card.png" width="100" height="100" /> <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/home-infestor-card.png" width="100" height="100" /> <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/helium-infestor-card.png" width="100" height="100" /> <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/ice-infestor-card.png" width="100" height="100" />
-and 36 action cards <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/action-card.png" width="100" height="100" />
-* 56 Fuel Tokens <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/fuel-token.png" width="50" height="50" class="circle" />
-* Nine of each Resource Token
+
+###12 infector cards (three of each type) 
+<img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/metal-infestor-card.png" width="100" height="100" /> <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/home-infestor-card.png" width="100" height="100" /> <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/helium-infestor-card.png" width="100" height="100" /> <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/ice-infestor-card.png" width="100" height="100" />
+
+###36 action cards 
+<img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/action-card.png" width="100" height="100" />
+
+###56 Fuel Tokens 
+<img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/fuel-token.png" width="50" height="50" class="circle" />
+
+###Nine of each Resource Token
 <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" />
 <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" />
 <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" />
-* Five Fuel Depots 
+
+###Five Fuel Depots 
 <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/fuel-depot.png" width="100" height="100" class="circle" />
-* Eight Storage Rings
+
+###Eight Storage Rings
 <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/storage-ring.png" width="100" height="100" class="circle" />
-* Two Refit Stations
+
+###Two Refit Stations
 <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/storage-ring.png" width="100" height="100" class="circle" />
-* Three of each color infestors
+
+###Three of each color infestors
 <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/infestor-metal.png" width="50" height="50" class="circle" />
 <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/infestor-home.png" width="50" height="50" class="circle" />
 <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/infestor-helium.png" width="50" height="50" class="circle" />
