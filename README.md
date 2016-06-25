@@ -68,12 +68,14 @@ Ice: <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/mast
 
 ##Rounds
 A round of play consists of the following:
+
 1. Infestor movement turn: move each infestor piece towards its target planet (see 'Infestor' section).
 1. Player turns: each player takes a turn as described below. 
 1. Orbit everything (all ships, planets, stations, and infestors) counter clockwise 
 
 ##Player Turns
 Each player, on their turn takes the following steps:
+
 1. Draw a card.  If it is an infestor card add an infestor to the board (See 'Infestors' section for details).  If it is an action card, keep it until you wish to use it to perform a special action (you may save it for a later turn if you like). 
 1. Do any or all of the following:
     * If you are at the home planet, or a refit depot, you may re-outfit your ship for a different class.  To re-outfit simply choose the class you would like and place that classes marker on your ship mat (removing the previous one).  Available classs are miner, engineer, interceptor, or heavy lift.
@@ -86,6 +88,7 @@ Each player, on their turn takes the following steps:
 Move one space per turn (except interceptors, see Interceptor special actions).
 
 Movement costs are as follows: 
+
 * Orbital transfer maneuver (changing orbits) - ½ of your total weight (fuel + cargo units currently on board your ship) 
 * Orbital transfers into planetary orbit - ¼ of your total ship weight 
 * Orbital transit (within the same orbit)- 1 fuel unit 
@@ -96,6 +99,7 @@ If you have too much cargo to move with your remaining fuel, you will need to du
 
 ##Special actions
 You may perform as many special actions as you like on your turn, provided you have cards for them. For each action you must discard one action card to perform that action. 
+
 ###Mining ship:  
 * Search the empty (no planets, depots, or invaders) space your ship occupies for resources by Rolling the die. A resource is discovered if the number rolled is less than or equal to the orbit number (e.g. 1 for innermost, 4 four outermost)  
     * If a resource is discovered, place a matching resource token in your cargo hold
@@ -131,6 +135,7 @@ Water is found in the outer ring
 ##Infestors
 ###Adding
 When an infestor card is drawn, take an infestor token of the corresponding color and place it on the board at the infestation point on the outermost orbit closest to where the player who drew the card is sitting.
+
 ###Moving
 Infestors move one space per round closer to their target planet (first in to the target orbit then around that orbit). When moving around an orbit, the infestor will take the shortest path to the planet, peferring the orbital direction (counter clockwise) in the case where either direction is the same distance to the planet. 
 
