@@ -23,12 +23,21 @@ Ice: <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ice-pla
 <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/class-marker3.png" width="100" height="100" style="border-radius: 50%" />
 * 12 infector cards (three of each type) <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/metal-infestor-card.png" width="100" height="100" /> <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/home-infestor-card.png" width="100" height="100" /> <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/helium-infestor-card.png" width="100" height="100" /> <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ice-infestor-card.png" width="100" height="100" />
 and 36 action cards <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/action-card.png" width="100" height="100" />
-* Fuel Tokens <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/fuel-token.png" width="50" height="50" style="border-radius: 50%"/>
-* Resource Tokens 
+* 56 Fuel Tokens <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/fuel-token.png" width="50" height="50" style="border-radius: 50%"/>
+* Nine of each Resource Token
 <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/metal-token.png" width="50" height="50" style="border-radius: 50%"/>
 <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/helium-token.png" width="50" height="50" style="border-radius: 50%"/>
 <img src="https://github.com/bjornicus/orbitalboardgame/blob/master/ice-token.png" width="50" height="50" style="border-radius: 50%"/>
-
+* Five Fuel Depots 
+<img src="https://github.com/bjornicus/orbitalboardgame/blob/master/fuel-depot.png" width="50" height="50" style="border-radius: 50%"/>
+* Eight Storage Rings
+<img src="https://github.com/bjornicus/orbitalboardgame/blob/master/storage-ring.png" width="50" height="50" style="border-radius: 50%"/>
+* Two Refit Stations
+* Three of each color infestors
+<img src="https://github.com/bjornicus/orbitalboardgame/blob/master/infestor-metal.png" width="50" height="50" style="border-radius: 50%"/>
+<img src="https://github.com/bjornicus/orbitalboardgame/blob/master/infestor-home.png" width="50" height="50" style="border-radius: 50%"/>
+<img src="https://github.com/bjornicus/orbitalboardgame/blob/master/infestor-helium.png" width="50" height="50" style="border-radius: 50%"/>
+<img src="https://github.com/bjornicus/orbitalboardgame/blob/master/infestor-ice.png" width="50" height="50" style="border-radius: 50%"/>
 
 ##Setup 
 1. Place the four planets somewhere in their respective orbits: metal planet (red) in the innermost orbit, home planet (earthlike) in the second orbit, helium planet (gas giant) in the third orbit, and ice planet in the outermont orbit.
