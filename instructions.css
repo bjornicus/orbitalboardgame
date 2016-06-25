@@ -1,0 +1,50 @@
+.circle{
+    border-radius: 50%; border: solid 1px black;
+}
+
+body {
+    font-family:Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:13px;
+    line-height:1.4;
+    color:#333;
+    background-color:#fff
+}
+h1,h2,h3,h4,h5,h6 {
+    margin-top:0;
+    margin-bottom:0;
+    line-height:1.4
+}
+h1 {
+    font-size:30px;
+    font-weight:bold
+}
+h2 {
+    font-size:21px;
+    font-weight:bold
+}
+h3 {
+    font-size:16px;
+    font-weight:bold
+}
+h4 {
+    font-size:14px;
+    font-weight:bold
+}
+h5 {
+    font-size:12px;
+    font-weight:bold
+}
+h6 {
+    font-size:11px;
+    font-weight:bold
+}
+p {
+    margin-top:0;
+    margin-bottom:10px
+}
+ol ol,ul ol {
+    list-style-type:lower-roman
+}
+ul ul ol,ul ol ol,ol ul ol,ol ol ol {
+    list-style-type:lower-alpha
+}

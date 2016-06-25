@@ -1,13 +1,12 @@
-# orbitalboardgame
+<link rel="stylesheet" type="text/css" href="instructions.css" />
+
+<img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/game-logo.png" alt="">
 
 ##Objective 
 Collect and transport critical resources to construct an interstellar transport while defending the solar system against invaders. 
 
 ##Parts
-<style type="text/css" media="screen">
-    .circle{border-radius: 50%; border: solid 1px black;}
-</style>
-* One Game Board.
+* One Game Board
 * Four Planets - 
 Metal: <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/metal-planet-mini-tile.png" width="100" height="100" class="circle" /> 
 Home: <img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/home-planet-mini-tile.png" width="100" height="100" class="circle" />
