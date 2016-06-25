@@ -149,9 +149,5 @@ Hard: 8 water and 4 metals
 The home planet becomes infested or the players are unable to gather sufficient resources 
 
 ##Creative Commons Artwork Credits from the Noun Project
-Card Backs - Rocket by Gem.icons
-Action cards: 
- - Heavy lift rocket by by Christelle Mozzati
- - Welding torch by Mac Cormier
- - Astronaught by Gem.icons
-Fuel depot by Carlos Salgado
+* Rocket by Gem.icons (used in card backs, logo, ship cards)
+* Welding torch by Mac Cormier (used in action card and engineer class indicator)
