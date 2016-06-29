@@ -114,13 +114,13 @@ You may perform as many special actions as you like on your turn, provided you h
     * Storage ring cost: 1 metal 
 
 ###Interceptor: 
-<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker3.png" width="100" height="100" />
+<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker2.png" width="100" height="100" />
  
 * Destroy an invader ship on the same space.
 * Move an extra space 
 
 ###Engineer: 
-<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker2.png" width="100" height="100" />
+<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker3.png" width="100" height="100" />
 
 * Build: 
     * Fuel depot or storage ring (same costs as above)
