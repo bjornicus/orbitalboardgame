@@ -103,7 +103,10 @@ You may perform as many special actions as you like on your turn, provided you h
 ###Mining ship:
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker1.png" width="100" height="100" />
 
-* Search the empty (no planets, stations, or infestors) space your ship occupies for resources by Rolling the die. A resource is discovered if the number rolled is less than or equal to the orbit number (e.g. 1 for innermost, 4 four outermost)  
+* Search the empty (no planets, stations, or infestors) space your ship occupies for resources by Rolling the die. A resource is discovered if the number rolled is less than or equal to the orbit number (e.g. 1 for innermost, 4 four outermost)
+    * Metals <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> can be found in the inner ring.
+    * Helium <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> can be found in the third ring.
+    * Ice <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> can be found in the outer ring.
     * If a resource is discovered, place a matching resource token in your cargo hold
 * Extract resources from the planet you are orbiting (if not infested). One resource per card 
     * Water from the outermost planet 
@@ -135,13 +138,6 @@ You may perform as many special actions as you like on your turn, provided you h
 
 * Heavy lift ships have 2X the carrying capacity of other ships.
 * Boost a station you are docked with to a new orbit for a cost of 3 fuel + the normal movement cost for your ship. Storage rings must be empty to boost. Your ship may not re-fuel on the same turn.
-
-##Resources 
-Metals <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> can be found in the inner ring.
-
-Helium <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> can be found in the third ring.
-
-Ice <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> can be found in the outer ring.
 
 ##Infestors
 ###Adding
