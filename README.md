@@ -3,7 +3,7 @@
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/game-logo.png" alt="">
 
 ##Objective 
-Collect and transport critical resources to construct an interstellar transport while defending the solar system against invaders. 
+Collect and transport critical resources to construct an orbital habitats while defending the solar system against invaders. 
 
 ##Parts
 
@@ -127,8 +127,8 @@ You may perform as many special actions as you like on your turn, provided you h
 * Build one of the following on the space your ship occupies, as long as it does not already have a ring or other station: 
     * Storage ring ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> )
     * Fuel depot ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> )
-    * Refit station ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> )
-    * Interstellar transport (see winning)
+    * Refit station ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> )
+    * Orbital Habitat ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> )
 * Upgrade a storage ring to any other station type. Cost is same as above minus the metal (e.g. upgrade a ring to a fuel depot for 2 helium).
 * Disassemble any constructed station and recover the metal
 * Refit any ship on the same space (including your own) 
@@ -156,16 +156,16 @@ If an infestor reaches a planet, that planet becomes infested and is no longer u
 If an infestor's target planet is already infested at the beginning of the infestor movement phase (i.e. before any infestors have moved this round), it targets the home planet.
 
 ##Winning 
-Successfully harvest and transport resources to the interstellar transport site: 
+Successfully construct orbital habitats: 
 
-Easy: 4 water and 2 metals 
+Easy: 1
 
-Normal: 6 water and 3 metals  
+Normal: 2
 
-Hard: 8 water and 4 metals  
+Hard: 3  
 
 ##Losing 
-The home planet becomes infested or the players are unable to gather sufficient resources 
+The home planet becomes infested or the players are unable to construct the necesarry number of habitats
 
 ##Creative Commons Artwork Credits from the Noun Project
 * Rocket by Gem.icons (used in card backs, logo, ship cards)
