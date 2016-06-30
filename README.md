@@ -140,6 +140,11 @@ You may perform as many special actions as you like on your turn, provided you h
 * Boost a station you are docked with to a new orbit for a cost of 3 fuel + the normal movement cost for your ship. Storage rings must be empty to boost. Your ship may not re-fuel on the same turn.
 
 ##Infestors
+<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/infestor-metal.png" width="50" height="50" class="circle" />
+<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/infestor-home.png" width="50" height="50" class="circle" />
+<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/infestor-helium.png" width="50" height="50" class="circle" />
+<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/infestor-ice.png" width="50" height="50" class="circle" />
+
 ###Adding
 When an infestor card is drawn, take an infestor token of the corresponding color and place it on the board at the infestation point on the outermost orbit closest to where the player who drew the card is sitting.
 
