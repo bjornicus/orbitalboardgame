@@ -78,7 +78,7 @@ Each player, on their turn takes the following steps:
 
 1. Draw a card.  If it is an infestor card add an infestor to the board (See 'Infestors' section for details).  If it is an action card, keep it until you wish to use it to perform a special action (you may save it for a later turn if you like). 
 1. Do any or all of the following:
-    * If you are at the home planet, or a refit depot, you may re-outfit your ship for a different class.  To re-outfit simply choose the class you would like and place that classes marker on your ship mat (removing the previous one).  Available classs are miner, engineer, interceptor, or heavy lift.
+    * If you are at the home planet, or a refit depot, you may re-outfit your ship for a different class. Available classs are miner, interceptor, engineer, or heavy lift. To re-outfit as a miner, interceptor, or engineer, place the appropriate class marker on your ship mat (removing the previous one).  To re-outfit as a heavy lift, flip your ship card over so that it shows the side with eight additional fuel/cargo slots.
     * Re-fuel your ship (if at the home planet or fuel depot) 
     * Exchange fuel, cards, or resources with other ships on your same space. 
     * Move your ship (once per turn)
@@ -98,19 +98,19 @@ When computing fuel costs, always round any fractional result up to the next who
 If you have too much cargo to move with your remaining fuel, you will need to dump some of it or transfer it to another ship or storage depot on your same space and move without it.  
 
 ##Special actions
-You may perform as many special actions as you like on your turn, provided you have cards for them. For each action you must discard one action card to perform that action. 
+You may perform as many special actions as you like on your turn, provided you have cards for them. For each action you perform you must discard one action card to perform that action. 
 
 ###Mining ship:
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker1.png" width="100" height="100" />
 
-* Search the empty (no planets, depots, or invaders) space your ship occupies for resources by Rolling the die. A resource is discovered if the number rolled is less than or equal to the orbit number (e.g. 1 for innermost, 4 four outermost)  
+* Search the empty (no planets, stations, or infestors) space your ship occupies for resources by Rolling the die. A resource is discovered if the number rolled is less than or equal to the orbit number (e.g. 1 for innermost, 4 four outermost)  
     * If a resource is discovered, place a matching resource token in your cargo hold
 * Extract resources from the planet you are orbiting (if not infested). One resource per card 
     * Water from the outermost planet 
-    * Metals from the innermost planet 
     * Helium 3 from the third planet 
-* Build storage ring on the empty space your ship occupies. Cost: 1 metal.
-* Upgrade a storage ring to a fuel depot. Cost: 2 He. 
+    * Metals from the innermost planet 
+* Build storage ring on the space your ship occupies, as long as it does not already have a ring or other station. Cost: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" />.
+* Upgrade a storage ring to a fuel depot. Cost: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" />. 
 
 ###Interceptor: 
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker2.png" width="100" height="100" />
@@ -121,25 +121,27 @@ You may perform as many special actions as you like on your turn, provided you h
 ###Engineer: 
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker3.png" width="100" height="100" />
 
-* Build: 
-    * Storage ring (1 metal)
-    * Fuel depot (1 metal + 2 helium)
-    * Refit stationt (1 water +1 metals +1 helium 3)
+* Build one of the following on the space your ship occupies, as long as it does not already have a ring or other station: 
+    * Storage ring ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> )
+    * Fuel depot ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> )
+    * Refit station ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> )
     * Interstellar transport (see winning)
-* Upgrade a storage ring to any other station type. Cost is same as above minus the metal.
+* Upgrade a storage ring to any other station type. Cost is same as above minus the metal (e.g. upgrade a ring to a fuel depot for 2 helium).
 * Disassemble any constructed station and recover the metal
 * Refit any ship on the same space (including your own) 
 
 ###Heavy lift:
 <img src="https://rawgit.com/bjornicus/orbitalboardgame/master/ship-card[back].svg" width="100" height="100">
 
-* Heavy lift ships have 2X the carrying capacity of other ships (i.e. can fit two fuel or resource token in each cargo space).
-* Boost a station you are docked to a new orbit for a cost of 3 fuel + the normal movement cost for your ship.  Your ship may not re-fuel on the same turn.
+* Heavy lift ships have 2X the carrying capacity of other ships.
+* Boost a station you are docked with to a new orbit for a cost of 3 fuel + the normal movement cost for your ship. Storage rings must be empty to boost. Your ship may not re-fuel on the same turn.
 
 ##Resources 
-Metals can be found in the inner ring 
-Helium is found in the third ring 
-Water is found in the outer ring 
+Metals <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> can be found in the inner ring.
+
+Helium <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> can be found in the third ring.
+
+Ice <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> can be found in the outer ring.
 
 ##Infestors
 ###Adding
