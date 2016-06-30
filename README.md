@@ -2,6 +2,8 @@
 
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/game-logo.png" alt="">
 
+Populations have grown beyond the capacity of the home planet; it is time to expand into the rest of the solar system.  You have the technology, but lack the necesarry resources to build orbital colonies.  You must venture forth into the solar system, gather the necesarry resources, and construct new homes for your people.  But an imminent threat has been been identified, an infestation is approaching which render the planets unusable.  You must defend your solar system against this threat. . .
+
 ##Objective 
 Collect and transport critical resources to construct an orbital habitats while defending the solar system against invaders. 
 
