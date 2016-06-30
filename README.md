@@ -109,23 +109,24 @@ You may perform as many special actions as you like on your turn, provided you h
     * Water from the outermost planet 
     * Metals from the innermost planet 
     * Helium 3 from the third planet 
-* Build a depot on the empty space your ship occupies  
-    * Fuel depot cost: 2 He + 1 metal 
-    * Storage ring cost: 1 metal 
+* Build storage ring on the empty space your ship occupies. Cost: 1 metal.
+* Upgrade a storage ring to a fuel depot. Cost: 2 He. 
 
 ###Interceptor: 
-<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker3.png" width="100" height="100" />
+<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker2.png" width="100" height="100" />
  
 * Destroy an invader ship on the same space.
 * Move an extra space 
 
 ###Engineer: 
-<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker2.png" width="100" height="100" />
+<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker3.png" width="100" height="100" />
 
 * Build: 
-    * Fuel depot or storage ring (same costs as above)
+    * Storage ring (1 metal)
+    * Fuel depot (1 metal + 2 helium)
     * Refit stationt (1 water +1 metals +1 helium 3)
-    * Interstellar transport (see winning) 
+    * Interstellar transport (see winning)
+* Upgrade a storage ring to any other station type. Cost is same as above minus the metal.
 * Disassemble any constructed station and recover the metal
 * Refit any ship on the same space (including your own) 
 
