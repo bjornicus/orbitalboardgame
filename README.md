@@ -44,13 +44,13 @@ Ice: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-plane
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" />
 
 ###Five Fuel Depots 
-<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/fuel-depot.png" width="100" height="100" class="circle" />
+<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/fuel-ring.png" width="100" height="100" class="circle" />
 
 ###Eight Storage Rings
-<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/storage-ring.png" width="100" height="100" class="circle" />
+<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/storage-ring.png" width="100" height="100" />
 
-###Two Refit Stations
-<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/storage-ring.png" width="100" height="100" class="circle" />
+###Three Refit Stations
+<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/refit-ring.png" width="100" height="100" class="circle" />
 
 ###Three of each color infestors
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/infestor-metal.png" width="50" height="50" class="circle" />
