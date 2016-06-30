@@ -79,7 +79,8 @@ Each player, on their turn takes the following steps:
 1. Draw a card.  If it is an infestor card add an infestor to the board (See 'Infestors' section for details).  If it is an action card, keep it until you wish to use it to perform a special action (you may save it for a later turn if you like). 
 1. Do any or all of the following:
     * If you are at the home planet, or a refit depot, you may re-outfit your ship for a different class. Available classs are miner, interceptor, engineer, or heavy lift. To re-outfit as a miner, interceptor, or engineer, place the appropriate class marker on your ship mat (removing the previous one).  To re-outfit as a heavy lift, flip your ship card over so that it shows the side with eight additional fuel/cargo slots.
-    * Re-fuel your ship (if at the home planet or fuel depot) 
+    * Load colony provisions onto your ship (if at the home planet).
+    * Re-fuel your ship (if at the home planet or fuel depot).
     * Exchange fuel, cards, or resources with other ships on your same space. 
     * Move your ship (once per turn)
     * Perform special actions specific to your ship's class (one per action card)
@@ -128,7 +129,7 @@ You may perform as many special actions as you like on your turn, provided you h
     * Storage ring ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> )
     * Fuel depot ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> )
     * Refit station ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> )
-    * Orbital Habitat ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> )
+    * Orbital Habitat ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> + colony provisions)
 * Upgrade a storage ring to any other station type. Cost is same as above minus the metal (e.g. upgrade a ring to a fuel depot for 2 helium).
 * Disassemble any constructed station and recover the metal
 * Refit any ship on the same space (including your own) 
@@ -156,13 +157,11 @@ If an infestor reaches a planet, that planet becomes infested and is no longer u
 If an infestor's target planet is already infested at the beginning of the infestor movement phase (i.e. before any infestors have moved this round), it targets the home planet.
 
 ##Winning 
-Successfully construct orbital habitats: 
+Easy: Successfully construct and provision one orbital habitat.
 
-Easy: 1
+Normal: Successfully construct and provision two orbital habitat. Do not lose more than two planets to infestation.
 
-Normal: 2
-
-Hard: 3  
+Hard: Successfully construct and provision three orbital habitat. Do not lose more than one planet to infestation.
 
 ##Losing 
 The home planet becomes infested or the players are unable to construct the necesarry number of habitats
