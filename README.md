@@ -83,7 +83,8 @@ Each player, on their turn takes the following steps:
     * If you are at the home planet, or a refit depot, you may re-outfit your ship for a different class. Available classs are miner, interceptor, engineer, or heavy lift. To re-outfit as a miner, interceptor, or engineer, place the appropriate class marker on your ship mat (removing the previous one).  To re-outfit as a heavy lift, flip your ship card over so that it shows the side with eight additional fuel/cargo slots.
     * Load colony provisions onto your ship (if at the home planet).
     * Re-fuel your ship (if at the home planet or fuel depot).
-    * Exchange fuel, cards, or resources with other ships on your same space. 
+    * Exchange fuel, cards, or resources with other ships on your same space.
+    * Move fuel or cargo to or from a storage ring on your same space.
     * Move your ship (once per turn)
     * Perform special actions specific to your ship's class (one per action card)
 
@@ -98,7 +99,7 @@ Movement costs are as follows:
 
 When computing fuel costs, always round any fractional result up to the next whole number.
 
-If you have too much cargo to move with your remaining fuel, you will need to dump some of it or transfer it to another ship or storage depot on your same space and move without it.  
+If you have too much cargo to move with your remaining fuel, you will need to dump some of it or transfer it to another ship or storage depot on your same space and move without it. 
 
 ##Special actions
 You may perform as many special actions as you like on your turn, provided you have cards for them. For each action you perform you must discard one action card to perform that action. 
