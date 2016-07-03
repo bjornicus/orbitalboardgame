@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2475"
+   height="2475"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="spinner.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3773">
+      <stop
+         style="stop-color:#001c39;stop-opacity:1;"
+         offset="0"
+         id="stop3775" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop3777" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3757">
+      <stop
+         style="stop-color:#ffff33;stop-opacity:1;"
+         offset="0"
+         id="stop3759" />
+      <stop
+         id="stop3767"
+         offset="0.5"
+         style="stop-color:#ffff33;stop-opacity:1;" />
+      <stop
+         style="stop-color:#001c39;stop-opacity:0.36078432;"
+         offset="1"
+         id="stop3761" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3757"
+       id="radialGradient3763"
+       cx="1320"
+       cy="1251"
+       fx="1320"
+       fy="1251"
+       r="1237.5196"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3773"
+       id="radialGradient3779"
+       cx="1244"
+       cy="1243"
+       fx="1244"
+       fy="1243"
+       r="1232"
+       gradientTransform="matrix(1,0,0,0.99675325,0,4.0357143)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.36769553"
+     inkscape:cx="870.9916"
+     inkscape:cy="1162.3214"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-grids="false"
+     inkscape:snap-page="true"
+     inkscape:window-width="1625"
+     inkscape:window-height="1026"
+     inkscape:window-x="55"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="background"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:url(#radialGradient3779);fill-opacity:1;stroke:none"
+       id="rect3771"
+       width="2475"
+       height="2475"
+       x="0"
+       y="0" />
+    <path
+       sodipodi:type="star"
+       style="fill:url(#radialGradient3763);fill-opacity:1;stroke:none"
+       id="path2987"
+       sodipodi:sides="12"
+       sodipodi:cx="1320"
+       sodipodi:cy="1251"
+       sodipodi:r1="1237.5072"
+       sodipodi:r2="18.079924"
+       sodipodi:arg1="-1.5673928"
+       sodipodi:arg2="-1.4076417"
+       inkscape:flatsided="false"
+       inkscape:rounded="-3.469447e-18"
+       inkscape:randomized="0"
+       d="M 1324.2119,13.499965 1322.9368,1233.1602 1942.3976,181.39947 1331.4632,1237.0186 2393.8124,635.89758 1336.9181,1244.6234 2557.5,1255.2119 1337.8398,1253.9368 2389.6005,1873.3976 1333.9814,1262.4632 1935.1024,2324.8124 1326.3766,1267.9181 1315.7881,2488.5 1317.0632,1268.8398 697.60239,2320.6005 1308.5368,1264.9814 246.18759,1866.1024 1303.0819,1257.3766 82.499965,1246.7881 1302.1602,1248.0632 250.39947,628.60239 1306.0186,1239.5368 704.89758,177.18759 1313.6234,1234.0819 z"
+       transform="translate(-82.5,-13.5)" />
+  </g>
+  <g
+     inkscape:label="resources"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,1422.6378)">
+    <rect
+       style="fill:none;stroke:none"
+       id="rect3769"
+       width="1104"
+       height="1108"
+       x="-36"
+       y="-28.999998"
+       transform="translate(0,-1422.6378)" />
+    <g
+       id="g4131"
+       transform="matrix(0.96592583,0.25881905,-0.25881905,0.96592583,-5.7560262,-326.55428)">
+      <image
+         inkscape:transform-center-x="841.18118"
+         width="225"
+         height="225"
+         xlink:href="file:///home/bjorn/Documents/SpaceJourney/spinner-ice.png"
+         id="image4079"
+         x="283.65384"
+         y="-297.63779" />
+      <image
+         inkscape:transform-center-y="-420.59058"
+         transform="matrix(0.8660254,0.5,-0.5,0.8660254,0,0)"
+         y="-891.50153"
+         x="25.313486"
+         id="image4117"
+         xlink:href="file:///home/bjorn/Documents/SpaceJourney/spinner-ice.png"
+         height="225"
+         width="225"
+         inkscape:transform-center-x="728.48428" />
+      <image
+         inkscape:transform-center-x="6.1426445e-05"
+         width="225"
+         height="225"
+         xlink:href="file:///home/bjorn/Documents/SpaceJourney/spinner-ice.png"
+         id="image4119"
+         x="-1138.819"
+         y="-1349.835"
+         transform="matrix(0,1,-1,0,0,0)"
+         inkscape:transform-center-y="-841.18118" />
+      <image
+         inkscape:transform-center-y="-728.4843"
+         transform="matrix(-0.5,0.8660254,-0.8660254,-0.5,0,0)"
+         y="-1091.4946"
+         x="-1732.6827"
+         id="image4121"
+         xlink:href="file:///home/bjorn/Documents/SpaceJourney/spinner-ice.png"
+         height="225"
+         width="225"
+         inkscape:transform-center-x="-420.59056" />
+      <image
+         inkscape:transform-center-x="-841.18109"
+         width="225"
+         height="225"
+         xlink:href="file:///home/bjorn/Documents/SpaceJourney/spinner-ice.png"
+         id="image4123"
+         x="-2191.0161"
+         y="72.637833"
+         transform="scale(-1,-1)"
+         inkscape:transform-center-y="-4.2255884e-05" />
+      <image
+         inkscape:transform-center-y="420.59052"
+         transform="matrix(-0.8660254,-0.5,0.5,-0.8660254,0,0)"
+         y="666.50159"
+         x="-1932.6758"
+         id="image4125"
+         xlink:href="file:///home/bjorn/Documents/SpaceJourney/spinner-ice.png"
+         height="225"
+         width="225"
+         inkscape:transform-center-x="-728.48423" />
+      <image
+         inkscape:transform-center-x="-6.0523437e-05"
+         width="225"
+         height="225"
+         xlink:href="file:///home/bjorn/Documents/SpaceJourney/spinner-ice.png"
+         id="image4127"
+         x="-768.54333"
+         y="1124.8351"
+         transform="matrix(0,-1,1,0,0,0)"
+         inkscape:transform-center-y="841.18113" />
+      <image
+         inkscape:transform-center-y="728.48427"
+         transform="matrix(0.5,-0.8660254,0.8660254,0.5,0,0)"
+         y="866.49475"
+         x="-174.67958"
+         id="image4129"
+         xlink:href="file:///home/bjorn/Documents/SpaceJourney/spinner-ice.png"
+         height="225"
+         width="225"
+         inkscape:transform-center-x="420.59049" />
+    </g>
+    <g
+       id="g4151"
+       transform="matrix(0.96592583,0.25881905,-0.25881905,0.96592583,-5.7503948,-326.59701)">
+      <image
+         inkscape:transform-center-x="605.76923"
+         width="225"
+         height="225"
+         xlink:href="file:///home/bjorn/Documents/SpaceJourney/spinner-helium.png"
+         id="image4049"
+         x="519.23083"
+         y="-297.63779" />
+      <use
+         inkscape:transform-center-y="-524.61156"
+         height="2475"
+         width="2475"
+         transform="matrix(0.5,0.8660254,-0.8660254,0.5,458.41601,-1164.2754)"
+         id="use4141"
+         inkscape:transform-center-x="302.88461"
+         xlink:href="#image4049"
+         y="0"
+         x="0" />
+      <use
+         height="2475"
+         width="2475"
+         transform="matrix(0.5,0.8660254,-0.8660254,0.5,458.41601,-1164.2754)"
+         id="use4143"
+         inkscape:transform-center-y="-524.61157"
+         inkscape:transform-center-x="-302.88463"
+         xlink:href="#use4141"
+         y="0"
+         x="0" />
+      <use
+         height="2475"
+         width="2475"
+         transform="matrix(0.5,0.8660254,-0.8660254,0.5,458.41601,-1164.2754)"
+         id="use4145"
+         inkscape:transform-center-y="-2.1832402e-05"
+         inkscape:transform-center-x="-605.76926"
+         xlink:href="#use4143"
+         y="0"
+         x="0" />
+      <use
+         height="2475"
+         width="2475"
+         transform="matrix(0.5,0.8660254,-0.8660254,0.5,458.41601,-1164.2754)"
+         id="use4147"
+         inkscape:transform-center-y="524.61153"
+         inkscape:transform-center-x="-302.88465"
+         xlink:href="#use4145"
+         y="0"
+         x="0" />
+      <use
+         height="2475"
+         width="2475"
+         transform="matrix(0.5,0.8660254,-0.8660254,0.5,458.41601,-1164.2754)"
+         id="use4149"
+         inkscape:transform-center-y="524.61154"
+         inkscape:transform-center-x="302.88459"
+         xlink:href="#use4147"
+         y="0"
+         x="0" />
+    </g>
+    <g
+       id="g4163"
+       transform="matrix(0.96592583,-0.25881905,0.25881905,0.96592583,87.60746,295.16914)">
+      <image
+         inkscape:transform-center-x="369.23077"
+         width="225"
+         height="225"
+         xlink:href="file:///home/bjorn/Documents/SpaceJourney/spinner-metal.png"
+         id="image4109"
+         x="754.8078"
+         y="-297.63779" />
+      <use
+         inkscape:transform-center-y="-319.76324"
+         height="2475"
+         width="2475"
+         transform="matrix(-0.5,0.8660254,-0.8660254,-0.5,1694.4738,-1348.5805)"
+         id="use4159"
+         inkscape:transform-center-x="-184.61536"
+         xlink:href="#image4109"
+         y="0"
+         x="0" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#image4109"
+         inkscape:transform-center-x="-184.61541"
+         id="use4161"
+         transform="matrix(-0.5,-0.8660254,0.8660254,-0.5,2015.1419,793.16712)"
+         width="2475"
+         height="2475"
+         inkscape:transform-center-y="319.76321" />
+    </g>
+  </g>
+</svg>
