@@ -9,8 +9,9 @@ Collect and transport critical resources to construct an orbital habitats while 
 
 ##Parts
 
-###One Game Board
-<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/game-board-thumbnail.png" width="200" height="200" /> 
+###One Game Board and resource spinner
+<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/game-board-thumbnail.png" width="300" height="300" /> 
+<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/spinner.png" width="100" height="100" /> 
 
 ###Four Planets
 Metal: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-planet-mini-tile.png" width="100" height="100" class="circle" /> 
@@ -107,14 +108,14 @@ You may perform as many special actions as you like on your turn, provided you h
 ###Mining ship:
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker1.png" width="100" height="100" />
 
-* Search the empty (no planets, stations, or infestors) space your ship occupies for resources by Rolling the die. A resource is discovered if the number rolled is less than or equal to the orbit number (e.g. 1 for innermost, 4 four outermost)
+* Search the empty (no planets, stations, or infestors) space your ship occupies for resources by spinning the resource spinner. A resource is discovered if the spinner points to the resource are searching for, which depends on which ring you are currently in:
     * Metals <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> can be found in the inner ring.
     * Helium <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> can be found in the third ring.
     * Ice <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> can be found in the outer ring.
     * If a resource is discovered, place a matching resource token in your cargo hold
 * Extract resources from the planet you are orbiting (if not infested). One resource per card 
     * Water from the outermost planet 
-    * Helium 3 from the third planet 
+    * Helium from the third planet 
     * Metals from the innermost planet 
 * Build storage ring on the space your ship occupies, as long as it does not already have a ring or other station. Cost: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" />.
 * Upgrade a storage ring to a fuel depot. Cost: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" />. 
