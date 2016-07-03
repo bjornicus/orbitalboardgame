@@ -49,11 +49,14 @@ Ice: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-plane
 ###Eight Storage Rings
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/storage-ring.png" width="100" height="100" />
 
-###Eight ring upgrade tokens
+###Five fuel/refit ring upgrade tokens
 front (fuel depot)
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/fuel-ring.png" width="80" height="80" class="circle" />
 back (refit station)
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/refit-ring.png" width="80" height="80" class="circle" />
+
+###Three habitat ring upgrade tokens
+<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/habitat-ring-upgrade.png" width="80" height="80" class="circle" />
 
 ###Three of each color infestors
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/infestor-metal.png" width="50" height="50" class="circle" />
