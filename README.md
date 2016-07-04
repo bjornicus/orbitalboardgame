@@ -2,15 +2,17 @@
 
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/game-logo.png" alt="">
 
-Populations have grown beyond the capacity of the home planet; it is time to expand into the rest of the solar system.  You have the technology, but lack the necesarry resources to build orbital colonies.  You must venture forth into the solar system, gather the necesarry resources, and construct new homes for your people.  But an imminent threat has been been identified, an infestation is approaching which render the planets unusable.  You must defend your solar system against this threat. . .
+Populations have grown beyond the capacity of the home planet; it is time to expand into the rest of the solar system.  You have the technology, but lack the necesarry resources to build orbital colonies. Unfortunately an imminent threat has been been identified! An infestation is approaching which could render the planets unusable.  You must venture forth into the solar system, gather the necesarry resources, and construct new homes for your people, while defending your solar system against this threat. . .
 
 ##Objective 
-Collect and transport critical resources to construct an orbital habitats while defending the solar system against invaders. 
+Work together to collect and transport critical resources in order to construct a orbital colonies while defending the solar system against the infestation. 
 
 ##Parts
 
-###One Game Board and resource spinner
+###One Game Board
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/game-board-thumbnail.png" width="300" height="300" /> 
+
+###One resource spinner
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/spinner.png" width="100" height="100" /> 
 
 ###Four Planets
@@ -32,16 +34,16 @@ Ice: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-plane
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker2.png" width="100" height="100" class="circle" />
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker3.png" width="100" height="100" class="circle" />
 
-###12 infector cards (three of each type) 
+###Twelve infector cards (three of each type) 
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-infestor-card.png" width="100" height="100" /> <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/home-infestor-card.png" width="100" height="100" /> <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-infestor-card.png" width="100" height="100" /> <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-infestor-card.png" width="100" height="100" />
 
-###36 action cards 
+###Thirty-Six action cards 
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/action-card.png" width="100" height="100" />
 
-###70 Fuel Tokens 
+###Seventy Fuel Tokens 
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/fuel-token.png" width="50" height="50" class="circle" />
 
-###12 of each Resource Token
+###Twelve of each Resource Token
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" />
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" />
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" />
@@ -66,8 +68,6 @@ back (refit station)
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/infestor-home.png" width="50" height="50" class="circle" />
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/infestor-helium.png" width="50" height="50" class="circle" />
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/infestor-ice.png" width="50" height="50" class="circle" />
-
-###A six sided die
 
 ##Setup 
 1. Place the four planets somewhere in their respective orbits: metal planet (red) in the innermost orbit, home planet (earthlike) in the second orbit, helium planet (gas giant) in the third orbit, and ice planet in the outermont orbit.
