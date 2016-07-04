@@ -34,7 +34,7 @@ Miner: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-m
 Interceptor: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker2.png" width="100" height="100" class="circle" />
 Engineer: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker3.png" width="100" height="100" class="circle" />
 
-###Twelve infector cards (three of each type) 
+###Twelve infestor cards (three of each type) 
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-infestor-card.png" width="100" height="100" /> <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/home-infestor-card.png" width="100" height="100" /> <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-infestor-card.png" width="100" height="100" /> <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-infestor-card.png" width="100" height="100" />
 
 ###Thirty-Six action cards 
@@ -43,10 +43,10 @@ Engineer: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/clas
 ###Seventy Fuel Tokens 
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/fuel-token.png" width="50" height="50" class="circle" />
 
-###Twelve of each Resource Token
-<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" />
-<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" />
-<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" />
+###Thirty-Six Resource Tokens (12 of each type)
+Metal: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" />
+Helium: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" />
+Ice: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" />
 
 ###Six colony provision tokens
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/crate.png" width="50" height="50" class="circle" />
@@ -63,7 +63,7 @@ back (refit station)
 ###Three habitat ring upgrade tokens
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/habitat-ring-upgrade.png" width="80" height="80" class="circle" />
 
-###Three of each color infestors
+###Twelve infestors (three of each type) of each color infestors
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/infestor-metal.png" width="50" height="50" class="circle" />
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/infestor-home.png" width="50" height="50" class="circle" />
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/infestor-helium.png" width="50" height="50" class="circle" />
@@ -129,7 +129,7 @@ You may perform as many special actions as you like on your turn, provided you h
 ###Interceptor: 
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker2.png" width="100" height="100" />
  
-* Destroy an invader ship on the same space.
+* Destroy an infestor on the same space.
 * Move an extra space 
 
 ###Engineer: 
