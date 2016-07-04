@@ -30,9 +30,9 @@ Ice: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-plane
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ship-card-purple.png" width="100" height="100" />
 
 ###Nine ship class markers (with one of three class indicator on each side)
-<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker1.png" width="100" height="100" class="circle" />
-<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker2.png" width="100" height="100" class="circle" />
-<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker3.png" width="100" height="100" class="circle" />
+Miner: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker1.png" width="100" height="100" class="circle" />
+Interceptor: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker2.png" width="100" height="100" class="circle" />
+Engineer: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker3.png" width="100" height="100" class="circle" />
 
 ###Twelve infector cards (three of each type) 
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-infestor-card.png" width="100" height="100" /> <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/home-infestor-card.png" width="100" height="100" /> <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-infestor-card.png" width="100" height="100" /> <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-infestor-card.png" width="100" height="100" />
