@@ -128,20 +128,28 @@ You may perform as many special actions as you like on your turn, provided you h
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker1.png" width="100" height="100" />
 
 * Search the empty (no planets, stations, or infestors) space your ship occupies for resources by spinning the resource spinner. A resource is discovered if the spinner points to the resource are searching for, which depends on which ring you are currently in:
-    * Metals <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> can be found in the innermost ring.
-    * Helium <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> can be found in the third ring.
-    * Ice <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> can be found in the outermost ring.
+    * <figure>
+    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" />
+    <figcaption>metal</figcaption>
+    </figure> can be found in the innermost ring.
+    * <figure>
+    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" />
+    <figcaption>helium</figcaption>
+    </figure> can be found in the third ring.
+    * <figure> 
+    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> 
+    <figcaption>ice</figcaption> 
+    </figure> can be found in the outermost ring.
     * If a resource is discovered, place a matching resource token in your cargo hold
 * Extract resources from the planet you are orbiting (if not infested). One resource per card 
     * Water from the outermost planet 
     * Helium from the third planet 
     * Metals from the innermost planet 
-* Build storage ring on the space your ship occupies, as long as it does not already have a ring or other station. Cost: one metal ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> ).
-* Upgrade a storage ring to a fuel depot. Cost: two helium ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> ). 
+* Build storage ring on the space your ship occupies, as long as it does not already have a ring or other station. Cost: <figure> <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> <figcaption>metal</figcaption> </figure>. 
+* Upgrade a storage ring to a fuel depot. Cost: <figure> <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> <figcaption>helium</figcaption> </figure> \+ <figure> <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> <figcaption>helium</figcaption> </figure>.
 
-###Interceptor: 
-<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker2.png" width="100" height="100" />
- 
+### Interceptor: 
+<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker2.png" width="100" height="100"/>
 * Destroy an infestor on the same space.
 * Move an extra space 
 
@@ -149,12 +157,51 @@ You may perform as many special actions as you like on your turn, provided you h
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker3.png" width="100" height="100" />
 
 * Build one of the following on the space your ship occupies, as long as it does not already have a ring or other station: 
-    * Infestor trap. Cost: one helium ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> )
-    * Storage ring. Cost: one metal ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> )
-    * Accelerator ring. Cost: one metal and one helium ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> )
-    * Fuel depot. Cost: one metal and two helium ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> )
-    * Refit station. Cost: one metal, one helium, and one ice ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> )
-    * Orbital Habitat: Cost: one metal, one helium, two ice, and one colony provision ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/crate.png" width="50" height="50" class="circle" />)
+    * Infestor trap. Cost: 
+<figure>
+    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" />
+    <figcaption>helium</figcaption>
+</figure>
+    * Storage ring. Cost: one metal ( <figure>
+    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" />
+    <figcaption>metal</figcaption>
+</figure> )
+    * Accelerator ring. Cost: one metal and one helium ( <figure>
+    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" />
+    <figcaption>metal</figcaption>
+</figure> \+ 
+<figure>
+    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" />
+    <figcaption>helium</figcaption>
+</figure> )
+    * Fuel depot. Cost: one metal and two helium ( <figure>
+    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" />
+    <figcaption>metal</figcaption>
+</figure> \+ 
+<figure>
+    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" />
+    <figcaption>helium</figcaption>
+</figure> \+ 
+<figure>
+    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" />
+    <figcaption>helium</figcaption>
+</figure> )
+    * Refit station. Cost: one metal, one helium, and one ice ( <figure>
+    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" />
+    <figcaption>metal</figcaption>
+</figure> \+ 
+<figure>
+    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" />
+    <figcaption>helium</figcaption>
+</figure> \+ <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> )
+    * Orbital Habitat: Cost: one metal, one helium, two ice, and one colony provision ( <figure>
+    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" />
+    <figcaption>metal</figcaption>
+</figure> \+ 
+<figure>
+    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" />
+    <figcaption>helium</figcaption>
+</figure>+ <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/crate.png" width="50" height="50" class="circle" />)
 * Upgrade a storage ring to any other station type. Cost is same as above minus the metal (e.g. upgrade a ring to a fuel depot for 2 helium).
 * Disassemble any constructed station and recover the metal
 * Refit any ship on the same space (including your own) 
