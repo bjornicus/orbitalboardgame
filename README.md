@@ -1,8 +1,9 @@
 <link rel="stylesheet" type="text/css" href="instructions.css" />
 
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/game-logo.png" alt="">
-
 Populations have grown beyond the capacity of the home planet; it is time to expand into the rest of the solar system.  You have the technology, but lack the necesarry resources to build orbital colonies. Unfortunately an imminent threat has been been identified! An infestation is approaching which could render the planets unusable.  You must venture forth into the solar system, gather the necesarry resources, and construct new homes for your people, while defending your solar system against this threat. . .
+
+Trajectory is a cooperative game, meaning either everyone wins, or everyone loses.  
 
 ##Objective 
 Work together to collect and transport critical resources in order to construct a orbital colonies while defending the solar system against the infestation. 
@@ -70,10 +71,10 @@ back (refit station)
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/infestor-ice.png" width="50" height="50" class="circle" />
 
 ##Setup 
-1. Place the four planets somewhere in their respective orbits: metal planet (red) in the innermost orbit, home planet (earthlike) in the second orbit, helium planet (gas giant) in the third orbit, and ice planet in the outermont orbit.
+1. Place the four planets at random locations within in their respective orbits: metal planet (red) in the innermost orbit, home planet (earthlike) in the second orbit, helium planet (gas giant) in the third orbit, and ice planet in the outermont orbit.
 1. Place all of the player's ships in orbit on the home planet.
 1. Fuel up the ships by filling all of the spots on each player's ship mats with fuel tokens.
-1. Separate 12 the infestor cards from the rest of the deck and shuffle them. Divide the rest of the deck (which now should contain only action cards) into three piles of 12. Shuffle two infestor cards into pile one, four into pile two, and six into pile three. Stack the piles with pile three on bottom and pile one on top to form the draw pile. 
+1. Separate the twelve infestor cards from the rest of the deck and shuffle them. Divide the rest of the deck (which now should contain only action cards) into three piles of 12. Shuffle two infestor cards into pile one, four into pile two, and six into pile three. Stack the piles with pile three on bottom and pile one on top to form the draw pile. 
 
 ##Rounds
 A round of play consists of the following:
@@ -89,24 +90,26 @@ Each player, on their turn takes the following steps:
 1. Do any or all of the following:
     * If you are at the home planet, or a refit depot, you may re-outfit your ship for a different class. Available classs are miner, interceptor, engineer, or heavy lift. To re-outfit as a miner, interceptor, or engineer, place the appropriate class marker on your ship mat (removing the previous one).  To re-outfit as a heavy lift, flip your ship card over so that it shows the side with eight additional fuel/cargo slots.
     * Load colony provisions onto your ship (if at the home planet).
+    * Deliver colony provisions to an orbital colony on the same space.
     * Re-fuel your ship (if at the home planet or fuel depot).
-    * Exchange fuel, cards, or resources with other ships on your same space.
-    * Move fuel or cargo to or from a storage ring on your same space.
+    * Exchange fuel, cards, or resources with other ships on the same space.
+    * Move fuel or cargo to or from a storage ring on the same space.
     * Move your ship (once per turn)
     * Perform special actions specific to your ship's class (one per action card)
 
 ##Ship movement 
-Move one space per turn (except interceptors, see Interceptor special actions).
+Each ship may move one space per turn (except interceptors, see Interceptor special actions).
 
-Movement costs are as follows: 
+Fuiel costs are as follows: 
 
-* Orbital transfer maneuver (changing orbits) - ½ of your total weight (fuel + cargo units currently on board your ship) 
-* Orbital transfers into planetary orbit - ¼ of your total ship weight 
-* Orbital transit (within the same orbit)- 1 fuel unit 
+* Changing orbits, arriving at a space with no planet - ½ of your total weight (fuel + cargo units currently on board your ship) 
+* Changing orbits, arriving at a planet - ¼ of your total ship weight 
+* Changing orbits, departing from an acceleration ring - ¼ of your total ship weight
+* Moving within the same orbit)- 1 fuel unit
 
 When computing fuel costs, always round any fractional result up to the next whole number.
 
-If you have too much cargo to move with your remaining fuel, you will need to dump some of it or transfer it to another ship or storage depot on your same space and move without it. 
+If you have too much cargo to move with your remaining fuel, you will need to dump some of it (in which case it is lost) or transfer it to another ship or storage depot on the same space and move without it. 
 
 ##Special actions
 You may perform as many special actions as you like on your turn, provided you have cards for them. For each action you perform you must discard one action card to perform that action. 
@@ -115,16 +118,16 @@ You may perform as many special actions as you like on your turn, provided you h
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker1.png" width="100" height="100" />
 
 * Search the empty (no planets, stations, or infestors) space your ship occupies for resources by spinning the resource spinner. A resource is discovered if the spinner points to the resource are searching for, which depends on which ring you are currently in:
-    * Metals <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> can be found in the inner ring.
+    * Metals <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> can be found in the innermost ring.
     * Helium <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> can be found in the third ring.
-    * Ice <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> can be found in the outer ring.
+    * Ice <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> can be found in the outermost ring.
     * If a resource is discovered, place a matching resource token in your cargo hold
 * Extract resources from the planet you are orbiting (if not infested). One resource per card 
     * Water from the outermost planet 
     * Helium from the third planet 
     * Metals from the innermost planet 
-* Build storage ring on the space your ship occupies, as long as it does not already have a ring or other station. Cost: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" />.
-* Upgrade a storage ring to a fuel depot. Cost: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" />. 
+* Build storage ring on the space your ship occupies, as long as it does not already have a ring or other station. Cost: one metal ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> ).
+* Upgrade a storage ring to a fuel depot. Cost: two helium ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> ). 
 
 ###Interceptor: 
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker2.png" width="100" height="100" />
@@ -136,10 +139,12 @@ You may perform as many special actions as you like on your turn, provided you h
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker3.png" width="100" height="100" />
 
 * Build one of the following on the space your ship occupies, as long as it does not already have a ring or other station: 
-    * Storage ring ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> )
-    * Fuel depot ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> )
-    * Refit station ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> )
-    * Orbital Habitat ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/crate.png" width="50" height="50" class="circle" />)
+    * Infestor trap. Cost: one helium ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> )
+    * Storage ring. Cost: one metal ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> )
+    * Accelerator ring. Cost: one metal and one helium ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> )
+    * Fuel depot. Cost: one metal and two helium ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> )
+    * Refit station. Cost: one metal, one helium, and one ice ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> )
+    * Orbital Habitat: Cost: one metal, one helium, two ice, and one colony provision ( <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/crate.png" width="50" height="50" class="circle" />)
 * Upgrade a storage ring to any other station type. Cost is same as above minus the metal (e.g. upgrade a ring to a fuel depot for 2 helium).
 * Disassemble any constructed station and recover the metal
 * Refit any ship on the same space (including your own) 
@@ -148,7 +153,7 @@ You may perform as many special actions as you like on your turn, provided you h
 <img src="https://rawgit.com/bjornicus/orbitalboardgame/master/ship-card[back].svg" width="100" height="100">
 
 * Heavy lift ships have 2X the carrying capacity of other ships.
-* Boost a station you are docked with to a new orbit for a cost of 3 fuel + the normal movement cost for your ship. Storage rings must be empty to boost. Your ship may not re-fuel on the same turn.
+* Boost a ring, station, or depot you are docked with to a new orbit for a cost of 3 fuel + the normal movement cost for your ship. Storage rings must be empty to boost. Your ship may not re-fuel on the same turn.
 
 ##Infestors
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/infestor-metal.png" width="50" height="50" class="circle" />
@@ -166,15 +171,20 @@ If an infestor reaches a planet, that planet becomes infested and is no longer u
 
 If an infestor's target planet is already infested at the beginning of the infestor movement phase (i.e. before any infestors have moved this round), it targets the home planet.
 
-##Winning 
+##Winning or Losing
+To win the game, you must construct enough orbital colonies to meet the expansion needs of your population.  Once constructed, colony provisions from the home planet must be delivered to a colony to make it ready to be inhabited.  The number of colonies you must construct depends on the difficulty you have chosen. The difficulty level also imposes constraints on how many planets you can allow to become infested.  Play continues until the draw pile is exhausted and all remaining action cards are used, or until one of the wining or losing condition is met.
+
+###Winning
+The game is won as soon as the players construct the requisite number of habitats:
+
 Easy: Successfully construct and provision one orbital habitat.
 
 Normal: Successfully construct and provision two orbital habitat. Do not lose more than two planets to infestation.
 
 Hard: Successfully construct and provision three orbital habitat. Do not lose more than one planet to infestation.
 
-##Losing 
-The home planet becomes infested or the players are unable to construct the necesarry number of habitats
+###Losing
+If the home planet becomes infested or more than the allowable number of other planets become infested, the game is lost. If the players are unable to construct the necesarry number of habitats before running out of action cards to spend the game is also lost.
 
 ##Creative Commons Artwork Credits from the Noun Project
 * Rocket by Gem.icons (used in card backs, logo, ship cards)
