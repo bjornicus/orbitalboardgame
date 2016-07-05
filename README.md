@@ -246,7 +246,10 @@ If an infestor reaches a planet, that planet becomes infested and is no longer u
 If an infestor's target planet is already infested at the beginning of the infestor movement phase (i.e. before any infestors have moved this round), it targets the home planet.
 
 ##Winning or Losing
-To win the game, you must construct enough orbital colonies to meet the expansion needs of your population.  Once constructed, colony provisions from the home planet must be delivered to a colony to make it ready to be inhabited.  The number of colonies you must construct depends on the difficulty you have chosen. The difficulty level also imposes constraints on how many planets you can allow to become infested.  Play continues until the draw pile is exhausted and all remaining action cards are used, or until one of the wining or losing conditions is met.
+To win the game, you must construct enough orbital colonies to meet the expansion needs of your population.  Once constructed, colony provisions from the home planet must be delivered to a colony to make it ready to be inhabited.  The number of colonies you must construct depends on the difficulty you have chosen. The difficulty level also imposes constraints on how many planets you can allow to become infested.  Play continues until one of the following happens:
+    * The winning condition is met.
+    * The game is lost due to planetary infestation.
+    * The draw pile is exhausted and all remaining action cards are used.
 
 ###Winning
 The game is won as soon as the players construct the requisite number of habitats:
