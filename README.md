@@ -148,8 +148,9 @@ You may perform as many special actions as you like on your turn, provided you h
 * Build storage ring on the space your ship occupies, as long as it does not already have a ring or other station. Cost: <figure> <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> <figcaption>metal</figcaption> </figure>. 
 * Upgrade a storage ring to a fuel depot. Cost: <figure> <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> <figcaption>helium</figcaption> </figure> \+ <figure> <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> <figcaption>helium</figcaption> </figure>.
 
-### Interceptor: 
+###Interceptor: 
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker2.png" width="100" height="100"/>
+
 * Destroy an infestor on the same space.
 * Move an extra space 
 
