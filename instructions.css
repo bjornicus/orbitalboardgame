@@ -4,6 +4,16 @@
     vertical-align: middle;
 }
 
+figure {
+    display: inline-block;
+    margin: 10px;
+}
+
+figure figcaption {
+    text-align: center;
+    font-size: 0.8em;
+}
+
 body {
     font-family:Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size:16px;

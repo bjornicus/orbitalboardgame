@@ -45,9 +45,19 @@ Engineer: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/clas
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/fuel-token.png" width="50" height="50" class="circle" />
 
 ###Thirty-Six Resource Tokens (12 of each type)
-Metal: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" />
-Helium: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" />
-Ice: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" />
+<figure>
+    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" />
+    <figcaption>metal</figcaption>
+</figure>
+<figure>
+    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" />
+    <figcaption>helium</figcaption>
+</figure>
+<figure>
+    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" />
+    <figcaption>ice</figcaption>
+</figure>
+
 
 ###Six colony provision tokens
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/crate.png" width="50" height="50" class="circle" />
