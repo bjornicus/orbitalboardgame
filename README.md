@@ -193,7 +193,11 @@ You may perform as many special actions as you like on your turn, provided you h
 <figure>
     <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" />
     <figcaption>helium</figcaption>
-</figure> \+ <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> 
+</figure> \+ 
+<figure> 
+    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> 
+    <figcaption>ice</figcaption>
+</figure>
     * Orbital Habitat: Cost: <figure>
     <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" />
     <figcaption>metal</figcaption>
@@ -203,13 +207,17 @@ You may perform as many special actions as you like on your turn, provided you h
     <figcaption>helium</figcaption>
 </figure> \+ 
 <figure>
-    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" /> + <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" />
+    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" />
+    <figcaption>ice</figcaption>
+</figure> \+ 
+<figure>
+    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" />
     <figcaption>ice</figcaption>
 </figure> \+ 
 <figure>
     <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/crate.png" width="50" height="50" class="circle" />
-    <figucaption>provisions</figcaption>
-<figure>
+    <figcaption>provisions</figcaption>
+</figure>
 * Upgrade a storage ring to any other station type. Cost is same as above minus the metal (e.g. upgrade a ring to a fuel depot for 2 helium).
 * Disassemble any constructed station and recover the metal
 * Refit any ship on the same space (including your own) 
