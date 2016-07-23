@@ -66,7 +66,7 @@ Engineer: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/clas
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/storage-ring.png" width="100" height="100" />
 
 ###Five fuel/refit ring upgrade tokens
-front (fuel depot)
+front (fuel station)
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/fuel-ring.png" width="80" height="80" class="circle" />
 back (refit station)
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/refit-ring.png" width="80" height="80" class="circle" />
@@ -82,7 +82,8 @@ back (refit station)
 
 ##Setup 
 1. Place the four planets at random locations within in their respective orbits: metal planet (red) in the innermost orbit, home planet (earthlike) in the second orbit, helium planet (gas giant) in the third orbit, and ice planet in the outermont orbit.
-1. Place all of the player's ships in orbit on the home planet.
+1. Place all of the player's ships in orbit around (on the same space as) the home planet.
+1. Place a storage ring in orbit in orbit around the home planet.
 1. Fuel up the ships by filling all of the spots on each player's ship mats with fuel tokens.
 1. Separate the twelve infestor cards from the rest of the deck and shuffle them. Divide the rest of the deck (which now should contain only action cards) into three piles of 12. Shuffle two infestor cards into pile one, four into pile two, and six into pile three. Stack the piles with pile three on bottom and pile one on top to form the draw pile. 
 
@@ -101,7 +102,7 @@ Each player, on their turn takes the following steps:
     * If you are at the home planet, or a refit depot, you may re-outfit your ship for a different class. Available classs are miner, interceptor, engineer, or heavy lift. To re-outfit as a miner, interceptor, or engineer, place the appropriate class marker on your ship mat (removing the previous one).  To re-outfit as a heavy lift, flip your ship card over so that it shows the side with eight additional fuel/cargo slots.
     * Load colony provisions onto your ship (if at the home planet).
     * Deliver colony provisions to an orbital colony on the same space.
-    * Re-fuel your ship (if at the home planet or fuel depot).
+    * Re-fuel your ship (if at the home planet or fuel station).
     * Exchange fuel, cards, or resources with other ships on the same space.
     * Move fuel or cargo to or from a storage ring on the same space.
     * Move your ship (once per turn)
@@ -146,8 +147,6 @@ You may perform as many special actions as you like on your turn, provided you h
     * Water from the outermost planet 
     * Helium from the third planet 
     * Metals from the innermost planet 
-* Build storage ring on the space your ship occupies, as long as it does not already have a ring or other station. Cost: <figure> <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" /> <figcaption>metal</figcaption> </figure>. 
-* Upgrade a storage ring to a fuel depot. Cost: <figure> <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> <figcaption>helium</figcaption> </figure> \+ <figure> <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" /> <figcaption>helium</figcaption> </figure>.
 
 ###Interceptor: 
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/class-marker2.png" width="100" height="100"/>
@@ -216,7 +215,7 @@ You may perform as many special actions as you like on your turn, provided you h
     <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" />
     <figcaption>ice</figcaption>
 </figure> 
-* Upgrade a storage ring to any other station type. Cost is same as above minus the metal (e.g. upgrade a ring to a fuel depot for 2 helium).
+* Upgrade a storage ring to any other station type. Cost is same as above minus the metal (e.g. upgrade a ring to a fuel station for 2 helium).
 * Disassemble any constructed station and recover the metal
 * Refit any ship on the same space (including your own) 
 
