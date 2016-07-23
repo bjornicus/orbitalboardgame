@@ -112,9 +112,10 @@ Each ship may move one space per turn (except interceptors, see Interceptor spec
 
 Fuiel costs are as follows: 
 
-* Changing orbits, arriving at a space with no planet - ½ of your total weight (fuel + cargo units currently on board your ship) 
-* Changing orbits, arriving at a planet - ¼ of your total ship weight 
-* Changing orbits, departing from an acceleration ring - ¼ of your total ship weight
+* Changing orbits, arriving at a space with no planet - 1/2 of your total weight (fuel + cargo units currently on board your ship) 
+* Changing orbits, arriving at a planet - 1/4 of your total ship weight 
+* Changing orbits, departing from an acceleration ring - 1/4 of your total ship weight
+* Changing orbits, departing from an acceleration ring and arriving at a planet - 1/8 of your total ship weight.
 * Moving within the same orbit)- 1 fuel unit
 
 When computing fuel costs, always round any fractional result up to the next whole number.
@@ -214,11 +215,7 @@ You may perform as many special actions as you like on your turn, provided you h
 <figure>
     <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/ice-token.png" width="50" height="50" class="circle" />
     <figcaption>ice</figcaption>
-</figure> \+ 
-<figure>
-    <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/crate.png" width="50" height="50" class="circle" />
-    <figcaption>provisions</figcaption>
-</figure>
+</figure> 
 * Upgrade a storage ring to any other station type. Cost is same as above minus the metal (e.g. upgrade a ring to a fuel depot for 2 helium).
 * Disassemble any constructed station and recover the metal
 * Refit any ship on the same space (including your own) 
