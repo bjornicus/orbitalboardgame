@@ -223,7 +223,7 @@ You may perform as many special actions as you like on your turn, provided you h
 <img src="https://rawgit.com/bjornicus/orbitalboardgame/master/ship-card[back].svg" width="100" height="100">
 
 * Heavy lift ships have 2X the carrying capacity of other ships.
-* Boost a ring, station, or depot you are docked with to a new orbit for a cost of 3 fuel + the normal movement cost for your ship. Storage rings must be empty to boost. Your ship may not re-fuel on the same turn.
+* Boost a ring, station, or depot with you as you move for an additional cost of 3 fuel units (on top of your normal ship movement cost. Storage rings must be empty to boost. Your ship may not re-fuel on the same turn.
 
 ##Infestors
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/infestor-metal.png" width="50" height="50" class="circle" />
