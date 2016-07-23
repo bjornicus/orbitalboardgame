@@ -14,7 +14,7 @@ Work together to collect and transport critical resources in order to construct 
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/game-board-thumbnail.png" width="300" height="300" /> 
 
 ###One resource spinner
-<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/spinner.png" width="100" height="100" /> 
+<img class="circle" src="https://rawgithub.com/bjornicus/orbitalboardgame/master/spinner.png" width="100" height="100" /> 
 
 ###Four Planets
 Metal: <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-planet-mini-tile.png" width="100" height="100" class="circle" /> 
