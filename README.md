@@ -1,7 +1,5 @@
 <link rel="stylesheet" type="text/css" href="instructions.css" />
 <section class="quick-links">
-Jump to: 
-
 * [Objective](#objective)
 * [Parts](#parts)
 * [Setup](#setup)
@@ -11,10 +9,10 @@ Jump to:
 * [Special Actions](#special-actions)
 * [Infestors](#infestors)
 * [Winning or Losing](#winning-or-losing)
-
 </section>
 
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/game-logo.png" alt="">
+
 Populations have grown beyond the capacity of the home planet; it is time to expand into the rest of the solar system.  You have the technology, but lack the necesarry resources to build orbital colonies. Unfortunately an imminent threat has been been identified! An infestation is approaching which could render the planets unusable.  You must venture forth into the solar system, gather the necesarry resources, and construct new homes for your people, while defending your solar system against this threat. . .
 
 Trajectory is a cooperative game, meaning either everyone wins, or everyone loses.  
