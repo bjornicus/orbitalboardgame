@@ -99,7 +99,7 @@ Each player, on their turn takes the following steps:
 
 1. Draw a card.  If it is an infestor card add an infestor to the board (See 'Infestors' section for details).  If it is an action card, keep it until you wish to use it to perform a special action (you may save it for a later turn if you like). 
 1. Do any or all of the following:
-    * If you are at the home planet, or a refit depot, you may re-outfit your ship for a different class. Available classs are miner, interceptor, engineer, or heavy lift. To re-outfit as a miner, interceptor, or engineer, place the appropriate class marker on your ship mat (removing the previous one).  To re-outfit as a heavy lift, flip your ship card over so that it shows the side with eight additional fuel/cargo slots.
+    * If you are at the home planet, or a refit station, you may re-outfit your ship for a different class. Available classs are miner, interceptor, engineer, or heavy lift. To re-outfit as a miner, interceptor, or engineer, place the appropriate class marker on your ship mat (removing the previous one).  To re-outfit as a heavy lift, flip your ship card over so that it shows the side with eight additional fuel/cargo slots.
     * Load colony provisions onto your ship (if at the home planet).
     * Deliver colony provisions to an orbital colony on the same space.
     * Re-fuel your ship (if at the home planet or fuel station).
@@ -121,7 +121,7 @@ Fuiel costs are as follows:
 
 When computing fuel costs, always round any fractional result up to the next whole number.
 
-If you have too much cargo to move with your remaining fuel, you will need to dump some of it (in which case it is lost) or transfer it to another ship or storage depot on the same space and move without it. 
+If you have too much cargo to move with your remaining fuel, you will need to dump some of it (in which case it is lost) or transfer it to another ship or storage ring on the same space and move without it. 
 
 ##Special actions
 You may perform as many special actions as you like on your turn, provided you have cards for them. For each action you perform you must discard one action card to perform that action. 
@@ -175,7 +175,7 @@ You may perform as many special actions as you like on your turn, provided you h
     <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/helium-token.png" width="50" height="50" class="circle" />
     <figcaption>helium</figcaption>
 </figure> 
-    * Fuel depot. Cost: <figure>
+    * Fuel station. Cost: <figure>
     <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/metal-token.png" width="50" height="50" class="circle" />
     <figcaption>metal</figcaption>
 </figure> \+ 
@@ -223,7 +223,7 @@ You may perform as many special actions as you like on your turn, provided you h
 <img src="https://rawgit.com/bjornicus/orbitalboardgame/master/ship-card[back].svg" width="100" height="100">
 
 * Heavy lift ships have 2X the carrying capacity of other ships.
-* Boost a ring, station, or depot with you as you move for an additional cost of 3 fuel units (on top of your normal ship movement cost. Storage rings must be empty to boost. Your ship may not re-fuel on the same turn.
+* Boost a ring or station with you as you move for an additional cost of 3 fuel units (on top of your normal ship movement cost. Storage rings must be empty to boost. Your ship may not re-fuel on the same turn.
 
 ##Infestors
 <img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/infestor-metal.png" width="50" height="50" class="circle" />
