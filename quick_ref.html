@@ -12,46 +12,55 @@
 </head>
 
 <body>
-    <section class="qref">
-        <h2 id="rounds">Rounds</h2>
-        <ol style="list-style-type: decimal">
-            <li><strong>Pirate turn</strong>: move each pirate piece or harvest pirate resources as described in the '<em>Pirate Turn</em>' section.</li>
-            <li><strong>Player turns</strong>: each player takes a turn as described in the '<em>Player Turns</em>' section.</li>
-            <li><strong>Orbit</strong>: move all ships, planets, stations, and pirates counter clockwise one space.</li>
-            <li><strong>Recycle tokens</strong>: Return any spent action tokens or destroyed pirates to the draw bag.</li>
-        </ol>
-        <h2>Pirate Turns</h2>
-        <ol style="list-style-type: decimal">
-            <li><strong>Move</strong></li>
-            <li><strong>Pillage</strong>
-        </ol>
-        <h2>Player Turns</h2>
-        <ol style="list-style-type: decimal">
-            <li><strong>Draw</strong></li>
-            <li><strong>Play</strong>:
-                <ul>
-                    <li><strong>Refit</strong></li>
-                    <li><strong>Re-fuel</strong></li>
-                    <li><strong>Move</strong> (once per turn)</li>
-                    <li><strong>Trade</strong></li>
-                    <li><strong>Special Actions</strong> (one per action token)</li>
-                </ul>
-            </li>
-        </ol>
+    <section class="qref row">
+        <div class="col-md-4">
+            <h2 id="rounds">Rounds</h2>
+            <ol style="list-style-type: decimal">
+                <li><strong>Pirate turn</strong></li>
+                <li><strong>Player turns</strong></li>
+                <li><strong>Orbit</strong></li>
+                <li><strong>Recycle tokens</strong></li>
+            </ol>
+        </div>
+        <div class="col-md-4">
+            <h2>Pirate Turns</h2>
+            <ol style="list-style-type: decimal">
+                <li><strong>Move</strong></li>
+                <li><strong>Pillage</strong>
+            </ol>
+        </div>
+        <div class="col-md-4">
+            <h2>Player Turns</h2>
+            <ol style="list-style-type: decimal">
+                <li><strong>Draw</strong></li>
+                <li><strong>Play</strong>:
+                    <ul>
+                        <li><strong>Refit</strong></li>
+                        <li><strong>Re-fuel</strong></li>
+                        <li><strong>Move</strong> (once per turn)</li>
+                        <li><strong>Trade</strong></li>
+                        <li><strong>Special Actions</strong> (one per action token)</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
     </section>
     <section class="qref">
         <h2 id="ship-movement">Movement Cost</h2>
         <ul>
-            <li>Changing orbits, arriving at a space with no planet - 1/2 of your total carried mass (fuel + cargo units currently on board your ship)</li>
-            <li>Changing orbits, arriving at a planet - 1/4 of your total carried mass</li>
-            <li>Changing orbits, departing from an acceleration ring - 1/4 of your total carried mass</li>
-            <li>Changing orbits, departing from an acceleration ring and arriving at a planet - 1/8 of your total carried mass.</li>
-            <li>Moving within the same orbit)- 1 fuel unit</li>
-        </ul>
+            <li>Changing Orbits:
+                <ul>
+                    <li>arriving at a space with no planet - 1/2 carried mass</li>
+                    <li>arriving at a planet - 1/4 carried mass</li>
+                    <li>departing from an acceleration ring - 1/4 carried mass</li>
+                    <li>departing from an acceleration ring and arriving at a planet - 1/8 carried mass.</li>
+                </ul>
+            </li>
+            <li>Moving within the same orbit: 1 fuel unit</li>
     </section>
     <section class="qref">
         <h2 id="special-actions">Special Actions</h2>
-        <div class="row qref2">
+        <div class="row">
             <div class="col-md-2">
                 <figure><img src="./class-marker1.png" width="100" height="100" />
                     <figcaption>Mining Ship</figcaption>
@@ -74,7 +83,8 @@
                 </ul>
             </div>
         </div>
-        <div class="row qref2">
+        <hr/>
+        <div class="row">
             <div class="col-md-2">
                 <figure><img src="./class-marker3.png" width="100" height="100" />
                     <figcaption>Engineer</figcaption>
