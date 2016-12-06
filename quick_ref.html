@@ -20,21 +20,21 @@
             <li><strong>Orbit</strong>: move all ships, planets, stations, and pirates counter clockwise one space.</li>
             <li><strong>Recycle tokens</strong>: Return any spent action tokens or destroyed pirates to the draw bag.</li>
         </ol>
-        <h2 id="player-turns">Pirate Turns</h2>
+        <h2>Pirate Turns</h2>
         <ol style="list-style-type: decimal">
             <li><strong>Move</strong></li>
             <li><strong>Pillage</strong>
         </ol>
-        <h2 id="player-turns">Player Turns</h2>
+        <h2>Player Turns</h2>
         <ol style="list-style-type: decimal">
             <li><strong>Draw</strong></li>
             <li><strong>Play</strong>:
                 <ul>
                     <li><strong>Refit</strong></li>
                     <li><strong>Re-fuel</strong></li>
-                    <li><strong>Move</strong>(once per turn)</li>
+                    <li><strong>Move</strong> (once per turn)</li>
                     <li><strong>Trade</strong></li>
-                    <li><strong>Special Actions</strong>(one per action token)</li>
+                    <li><strong>Special Actions</strong> (one per action token)</li>
                 </ul>
             </li>
         </ol>
@@ -51,37 +51,58 @@
     </section>
     <section class="qref">
         <h2 id="special-actions">Special Actions</h2>
-        <figure><img src="./class-marker1.png" width="100" height="100" />
-            <figcaption>Mining Ship</figcaption>
-        </figure>
-        <ul>
-            <li>Extract resources from a planet when in orbit.
-        </ul>
-        <figure><img src="./class-marker2.png" width="100" height="100" />
-            <figcaption>Interceptor</figcaption>
-        </figure>
-        <ul>
-            <li>Destroy a pirate on the same space.</li>
-            <li>Move an extra space</li>
-        </ul>
-        <figure><img src="./class-marker1.png" width="100" height="100" />
-            <figcaption>Engineer</figcaption>
-        </figure>
-        <ul>
-            <li>Build</li>
-            <li>Upgrade a ring or station</li>
-            <li>Recycle a ring or station</li>
-            <li>Refit any ship on the same space (including itself)</li>
-        </ul>
-        <figure><img src="./ship-card[back].svg" width="100" height="100" />
-            <figcaption>Heavy Lift</figcaption>
-        </figure>
-        <ul>
-            <li>Boost an empty ring or station (normal movement cost +3). Your ship may not re-fuel on the same turn.</li>
-            <li>Move an extra space</li>
-        </ul>
+        <div class="row qref2">
+            <div class="col-md-2">
+                <figure><img src="./class-marker1.png" width="100" height="100" />
+                    <figcaption>Mining Ship</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li>Extract resources from a planet when in orbit.</li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <figure><img src="./class-marker2.png" width="100" height="100" />
+                    <figcaption>Interceptor</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li>Destroy a pirate on the same space.</li>
+                    <li>Move an extra space</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row qref2">
+            <div class="col-md-2">
+                <figure><img src="./class-marker3.png" width="100" height="100" />
+                    <figcaption>Engineer</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li>Build</li>
+                    <li>Upgrade a ring or station</li>
+                    <li>Recycle a ring or station</li>
+                    <li>Refit any ship on the same space (including itself)</li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <figure><img src="./ship-card[back].svg" width="100" height="100" />
+                    <figcaption>Heavy Lift</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li>Boost an empty ring or station (normal movement cost +3). Your ship may not re-fuel on the same turn.</li>
+                    <li>Move an extra space</li>
+                </ul>
+            </div>
+        </div>
     </section>
-    <section class="qref"><h3>Build Costs</h3>
+    <section class="qref">
+        <h3>Build Costs</h3>
         <ul>
             <li>Pirate trap. Cost:
                 <figure>
@@ -187,20 +208,23 @@
                     </figcaption>
                 </figure>
             </li>
-        </ul></section>
-<section class="qref">    <h2 id="winning-or-losing">Winning or Losing</h2>
-    <h3 id="winning">Winning</h3>
-    <ul>
-        <li>Easy: Successfully construct and provision one orbital habitat.</li>
-        <li>Normal: Successfully construct and provision two orbital habitats.</li>
-        <li>Hard: Successfully construct and provision three orbital habitats.</li>
-    </ul>
-    <h3 id="losing">Losing</h3>
-    <ul>
-        <li>Easy: Pirates collect ten resource tokens.</li>
-        <li>Normal: Pirates collect eight resource tokens..</li>
-        <li>Hard: Pirates collect six resource tokens..</li>
-    </ul></section>
+        </ul>
+    </section>
+    <section class="qref">
+        <h2 id="winning-or-losing">Winning or Losing</h2>
+        <h3 id="winning">Winning</h3>
+        <ul>
+            <li>Easy: Successfully construct and provision one orbital habitat.</li>
+            <li>Normal: Successfully construct and provision two orbital habitats.</li>
+            <li>Hard: Successfully construct and provision three orbital habitats.</li>
+        </ul>
+        <h3 id="losing">Losing</h3>
+        <ul>
+            <li>Easy: Pirates collect ten resource tokens.</li>
+            <li>Normal: Pirates collect eight resource tokens..</li>
+            <li>Hard: Pirates collect six resource tokens..</li>
+        </ul>
+    </section>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
