@@ -27,7 +27,7 @@ type alias Model =
 
 init : ( Model, Cmd Msg )
 init =
-    ( Model "?" "Loading...", Cmd.none )
+    ( Model "" "Loading...", Cmd.none )
 
 
 
@@ -75,7 +75,7 @@ subscriptions model =
 view : Model -> Html Msg
 view model =
     div []
-        [ input [ type_ "text", value model.input, onInput Change ] []
+        [ input [ type_ "text", Html.Attributes.placeholder "new text goes here", value model.input, onInput Change ] []
         , button [ onClick Save ] [ text "Update" ]
         , div [] [ text model.data ]
         ]
