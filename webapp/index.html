@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <div id=errors></div>
+    <div id=content>Loading...</div>
+    <!-- 
+<script src="https://www.gstatic.com/firebasejs/3.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.6.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.6.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.6.1/firebase-messaging.js"></script> 
+<script src="https://www.gstatic.com/firebasejs/3.6.1/firebase-storage.js"></script> 
+-->
+    <script src="https://www.gstatic.com/firebasejs/3.6.3/firebase.js"></script>
+    <script src="main.js"></script>
+    <script>
+    let content = document.getElementById('content');
+    let errors = document.getElementById('content');
+        // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyBV759VcruZzA0hsp6z4r_qgiwaVaFxUfM",
+        authDomain: "trajectory-c124d.firebaseapp.com",
+        databaseURL: "https://trajectory-c124d.firebaseio.com",
+        storageBucket: "trajectory-c124d.appspot.com",
+        messagingSenderId: "487957718166"
+    };
+    firebase.initializeApp(config);
+    firebase.auth().signInAnonymously().catch(function(error) {
+        // Handle Errors here.
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        errors.innerText = errorMessage;
+        // ...
+    });
+    var database = firebase.database();
+    contentRef = database.ref('scratch').child('abcd');
+    // contentRef.set('derp derp');
+
+    var node = document.getElementById('content');
+    var app = Elm.Main.embed(node);
+    
+    app.ports.updateData.subscribe(function(data) {
+        contentRef.set(data);
+    });
+    contentRef.on('value', s => app.ports.newValue.send(s.val()));
+    // Note: if your Elm module is named "MyThing.Root" you
+    // would call "Elm.MyThing.Root.embed(node)" instead.
+    </script>
+</body>
+
+</html>
