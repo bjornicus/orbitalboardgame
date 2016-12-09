@@ -2,6 +2,7 @@ port module Main exposing (..)
 
 import Html exposing (..)
 import Html.Events exposing (..)
+import Html.Attributes exposing (..)
 
 
 main : Program Never Model Msg
@@ -74,7 +75,7 @@ subscriptions model =
 view : Model -> Html Msg
 view model =
     div []
-        [ input [ onInput Change ] []
+        [ input [ type_ "text", value model.input, onInput Change ] []
         , button [ onClick Save ] [ text "Update" ]
         , div [] [ text model.data ]
         ]
