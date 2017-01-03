@@ -8,6 +8,25 @@ boardDimensions =
     [ x "-800", y "-800", width "1600", height "1600" ]
 
 
+boardRadius : Int
+boardRadius =
+    800
+
+
+lineWidth : Float
+lineWidth =
+    1600 / 800
+
+
+
+-- todo sun and background gradients:     spaceGradient=ctx.createRadialGradient(center,center,0.2*radius,center,center,0.6*radius),
+--sunGradient=ctx.createRadialGradient(center,center,0.08*radius,center,center,0.1*radius);
+--sunGradient.addColorStop(0,"#FFFF33");
+--sunGradient.addColorStop(1,"#001c39");
+--spaceGradient.addColorStop(0,"#001c39");
+--spaceGradient.addColorStop(1, "#000912");
+
+
 sun =
     circle [ r "50", fill "#ffff33" ] []
 
@@ -53,8 +72,7 @@ spaceOffset spaceNumber =
         spaceNumber - 28
 
 
-orbitSpace : Int -> Svg msg
-orbitSpace spaceNumber =
+transformForSpace spaceNumber =
     let
         orbitNumber =
             spaceToOrbit spaceNumber
@@ -64,16 +82,49 @@ orbitSpace spaceNumber =
     in
         case orbitNumber of
             0 ->
-                circle [ id ("spaceNumber" ++ toString spaceNumber), r "10", fill "#ba4434", transform ("rotate(" ++ toString (offset * 90) ++ ") " ++ translateToOrbit orbitNumber) ] []
+                transform ("rotate(" ++ toString (offset * 90) ++ ") " ++ translateToOrbit orbitNumber)
 
             1 ->
-                circle [ id ("spaceNumber" ++ toString spaceNumber), r "10", fill "#0e84b7", transform ("rotate(" ++ toString (toFloat offset * 45.0 + 22.5) ++ ") " ++ translateToOrbit orbitNumber) ] []
+                transform ("rotate(" ++ toString (toFloat offset * 45.0 + 22.5) ++ ") " ++ translateToOrbit orbitNumber)
 
             2 ->
-                circle [ id ("spaceNumber" ++ toString spaceNumber), r "10", fill "#ffc0cb", transform ("rotate(" ++ toString (toFloat offset * 22.5 + (22.5 + 11.25)) ++ ") " ++ translateToOrbit orbitNumber) ] []
+                transform ("rotate(" ++ toString (toFloat offset * 22.5 + (22.5 + 11.25)) ++ ") " ++ translateToOrbit orbitNumber)
 
             _ ->
-                circle [ id ("spaceNumber" ++ toString spaceNumber), r "10", fill "#BBBBEE", transform ("rotate(" ++ toString (toFloat offset * 11.25 + 22.5 + 11.25 + 11.25 / 2) ++ ") " ++ translateToOrbit orbitNumber) ] []
+                transform ("rotate(" ++ toString (toFloat offset * 11.25 + 22.5 + 11.25 + 11.25 / 2) ++ ") " ++ translateToOrbit orbitNumber)
+
+
+colorForOrbit orbitNumber =
+    case orbitNumber of
+        0 ->
+            "#ba4434"
+
+        1 ->
+            "#0e84b7"
+
+        2 ->
+            "#ffc0cb"
+
+        _ ->
+            "#BBBBEE"
+
+
+orbitSpace : Int -> Svg msg
+orbitSpace spaceNumber =
+    let
+        orbitNumber =
+            spaceToOrbit spaceNumber
+
+        offset =
+            spaceOffset spaceNumber
+    in
+        circle
+            [ id <| "spaceNumber" ++ toString spaceNumber
+            , r "10"
+            , fill <| colorForOrbit orbitNumber
+            , transformForSpace spaceNumber
+            ]
+            []
 
 
 orbitSpaces : List (Svg msg)
@@ -81,9 +132,31 @@ orbitSpaces =
     List.map orbitSpace spaces
 
 
+boostPath fromSpace toSpace =
+    let
+        fromOrbitNumber =
+            spaceToOrbit fromSpace
+
+        toOrbitNumber =
+            spaceToOrbit toSpace
+
+        fromSpaceOffset =
+            spaceOffset fromSpace
+
+        toSpaceOffset =
+            spaceOffset toSpace
+
+        --let xctrl = targetRadius*Math.cos(targetRotationAngle/2);
+        --let yctrl = -targetRadius*Math.sin(targetRotationAngle/2);
+        --let xnext = targetRadius*Math.cos(targetRotationAngle);
+        --let ynext = -targetRadius*Math.sin(targetRotationAngle);
+    in
+        Svg.path [ transform (translateToOrbit fromOrbitNumber), d "M0,0 q100,100,300,0", strokeWidth (toString lineWidth), stroke "#FFFFFF" ] []
+
+
 main =
     svg
         [ version "1.1"
         , viewBox "-800 -800 1600 1600"
         ]
-        (background :: sun :: orbitSpaces)
+        (background :: sun :: boostPath 0 4 :: orbitSpaces)
