@@ -2,6 +2,8 @@ module View exposing (main)
 
 import Svg exposing (..)
 import Svg.Attributes exposing (..)
+import Html exposing (Html, program)
+import Time exposing (Time, second)
 
 
 boardDimensions =
@@ -114,9 +116,6 @@ orbitSpace spaceNumber =
     let
         orbitNumber =
             spaceToOrbit spaceNumber
-
-        offset =
-            spaceOffset spaceNumber
     in
         circle
             [ id <| "spaceNumber" ++ toString spaceNumber
@@ -154,9 +153,63 @@ boostPath fromSpace toSpace =
         Svg.path [ transform (translateToOrbit fromOrbitNumber), d "M0,0 q100,100,300,0", strokeWidth (toString lineWidth), stroke "#FFFFFF" ] []
 
 
-main =
+highlightSpace spaceNumber =
+    circle
+        [ r "20"
+        , stroke "#AAAAAA"
+        , transformForSpace spaceNumber
+        ]
+        []
+
+
+view model =
     svg
         [ version "1.1"
         , viewBox "-800 -800 1600 1600"
         ]
-        (background :: sun :: boostPath 0 4 :: orbitSpaces)
+        (background :: sun :: boostPath 0 4 :: highlightSpace model.currentSpace :: orbitSpaces)
+
+
+main =
+    program { init = init, view = view, update = update, subscriptions = subs }
+
+
+
+-- UPDATE
+
+
+type Msg
+    = Ahead Time
+    | Behind
+    | Higher
+    | Lower
+
+
+type alias Model =
+    { currentSpace : Int }
+
+
+update : Msg -> Model -> ( Model, Cmd Msg )
+update msg model =
+    case msg of
+        Ahead newTime ->
+            ( { currentSpace = ((model.currentSpace + 1) % 60) }, Cmd.none )
+
+        Behind ->
+            ( { currentSpace = model.currentSpace - 1 }, Cmd.none )
+
+        Higher ->
+            ( model, Cmd.none )
+
+        Lower ->
+            ( model, Cmd.none )
+
+
+init : ( Model, Cmd Msg )
+init =
+    ( Model 50, Cmd.none )
+
+
+subs : Model -> Sub Msg
+subs model =
+    Time.every 500 Ahead
