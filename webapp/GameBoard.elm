@@ -167,7 +167,7 @@ view model =
         [ version "1.1"
         , viewBox "-800 -800 1600 1600"
         ]
-        (background :: sun :: boostPath 0 4 :: highlightSpace model.currentSpace :: orbitSpaces)
+        (background :: sun :: boostPath 0 4 :: List.append (List.map highlightSpace model.orbiters) orbitSpaces)
 
 
 main =
@@ -179,24 +179,41 @@ main =
 
 
 type Msg
-    = Ahead Time
+    = Orbit Time
+    | Ahead
     | Behind
     | Higher
     | Lower
 
 
 type alias Model =
-    { currentSpace : Int }
+    { orbiters : List Int
+    }
+
+
+orbit : Int -> Int
+orbit spaceNumber =
+    if spaceNumber < 4 then
+        (spaceNumber + 1) % 4
+    else if spaceNumber < 12 then
+        ((spaceOffset spaceNumber + 1) % 8) + 4
+    else if spaceNumber < 28 then
+        ((spaceOffset spaceNumber + 1) % 16) + 12
+    else
+        ((spaceOffset spaceNumber + 1) % 32) + 28
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        Ahead newTime ->
-            ( { currentSpace = ((model.currentSpace + 1) % 60) }, Cmd.none )
+        Orbit t ->
+            ( { orbiters = List.map orbit model.orbiters }, Cmd.none )
+
+        Ahead ->
+            ( model, Cmd.none )
 
         Behind ->
-            ( { currentSpace = model.currentSpace - 1 }, Cmd.none )
+            ( model, Cmd.none )
 
         Higher ->
             ( model, Cmd.none )
@@ -207,9 +224,9 @@ update msg model =
 
 init : ( Model, Cmd Msg )
 init =
-    ( Model 0, Cmd.none )
+    ( Model [ 0, 4, 12, 28 ], Cmd.none )
 
 
 subs : Model -> Sub Msg
 subs model =
-    Time.every 200 Ahead
+    Time.every 500 Orbit
