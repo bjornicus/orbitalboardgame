@@ -84,16 +84,16 @@ transformForSpace spaceNumber =
     in
         case orbitNumber of
             0 ->
-                transform ("rotate(" ++ toString (offset * 90) ++ ") " ++ translateToOrbit orbitNumber)
+                transform ("rotate(" ++ toString (offset * -90) ++ ") " ++ translateToOrbit orbitNumber)
 
             1 ->
-                transform ("rotate(" ++ toString (toFloat offset * 45.0 + 22.5) ++ ") " ++ translateToOrbit orbitNumber)
+                transform ("rotate(" ++ toString (toFloat offset * -45.0 - 22.5) ++ ") " ++ translateToOrbit orbitNumber)
 
             2 ->
-                transform ("rotate(" ++ toString (toFloat offset * 22.5 + (22.5 + 11.25)) ++ ") " ++ translateToOrbit orbitNumber)
+                transform ("rotate(" ++ toString (toFloat offset * -22.5 - (22.5 + 11.25)) ++ ") " ++ translateToOrbit orbitNumber)
 
             _ ->
-                transform ("rotate(" ++ toString (toFloat offset * 11.25 + 22.5 + 11.25 + 11.25 / 2) ++ ") " ++ translateToOrbit orbitNumber)
+                transform ("rotate(" ++ toString (toFloat offset * -11.25 - 22.5 - 11.25 - 11.25 / 2) ++ ") " ++ translateToOrbit orbitNumber)
 
 
 colorForOrbit orbitNumber =
@@ -207,9 +207,9 @@ update msg model =
 
 init : ( Model, Cmd Msg )
 init =
-    ( Model 50, Cmd.none )
+    ( Model 0, Cmd.none )
 
 
 subs : Model -> Sub Msg
 subs model =
-    Time.every 500 Ahead
+    Time.every 200 Ahead
