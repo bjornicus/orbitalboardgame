@@ -2,243 +2,123 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags always come first -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="instructions.css" />
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="instructions.css" />
 </head>
 
 <body>
-    <section class="qref row">
-        <div class="col-md-4">
-            <h2 id="rounds">Rounds</h2>
-            <ol style="list-style-type: decimal">
-                <li><strong>Pirate turn</strong></li>
-                <li><strong>Player turns</strong></li>
-                <li><strong>Orbit</strong></li>
-                <li><strong>Recycle tokens</strong></li>
-            </ol>
-        </div>
-        <div class="col-md-4">
-            <h2>Pirate Turns</h2>
-            <ol style="list-style-type: decimal">
-                <li><strong>Move</strong></li>
-                <li><strong>Pillage</strong>
-            </ol>
-        </div>
-        <div class="col-md-4">
-            <h2>Player Turns</h2>
-            <ol style="list-style-type: decimal">
-                <li><strong>Draw</strong></li>
-                <li><strong>Play</strong>:
-                    <ul>
-                        <li><strong>Refit</strong></li>
-                        <li><strong>Re-fuel</strong></li>
-                        <li><strong>Move</strong> (once per turn)</li>
-                        <li><strong>Trade</strong></li>
-                        <li><strong>Special Actions</strong> (one per action token)</li>
-                    </ul>
-                </li>
-            </ol>
-        </div>
-    </section>
-    <section class="qref">
-        <h2 id="ship-movement">Movement Cost</h2>
+  <section class="qref">
+    <div class="col-md-4">
+      <h2>Player Turns</h2>
+      <p>Players may take their turns each round in any order. During a turn each player may take <strong>one</strong>
+        of the following actions:
         <ul>
-            <li>Changing Orbits:
-                <ul>
-                    <li>arriving at a space with no planet - 1/2 carried mass</li>
-                    <li>arriving at a planet - 1/4 carried mass</li>
-                    <li>departing from an acceleration ring - 1/4 carried mass</li>
-                    <li>departing from an acceleration ring and arriving at a planet - 1/8 carried mass.</li>
-                </ul>
-            </li>
-            <li>Moving within the same orbit: 1 fuel unit</li>
-    </section>
-    <section class="qref">
-        <h2 id="special-actions">Special Actions</h2>
-        <div class="row">
-            <div class="col-md-2">
-                <figure><img src="./class-marker1.png" width="100" height="100" />
-                    <figcaption>Mining Ship</figcaption>
-                </figure>
-            </div>
-            <div class="col-md-4">
-                <ul>
-                    <li>Extract resources from a planet when in orbit.</li>
-                </ul>
-            </div>
-            <div class="col-md-2">
-                <figure><img src="./class-marker2.png" width="100" height="100" />
-                    <figcaption>Interceptor</figcaption>
-                </figure>
-            </div>
-            <div class="col-md-4">
-                <ul>
-                    <li>Destroy a pirate on the same space.</li>
-                    <li>Move an extra space</li>
-                </ul>
-            </div>
-        </div>
-        <hr/>
-        <div class="row">
-            <div class="col-md-2">
-                <figure><img src="./class-marker3.png" width="100" height="100" />
-                    <figcaption>Engineer</figcaption>
-                </figure>
-            </div>
-            <div class="col-md-4">
-                <ul>
-                    <li>Build</li>
-                    <li>Upgrade a ring or station</li>
-                    <li>Recycle a ring or station</li>
-                    <li>Refit any ship on the same space (including itself)</li>
-                </ul>
-            </div>
-            <div class="col-md-2">
-                <figure><img src="./ship-card[back].svg" width="100" height="100" />
-                    <figcaption>Heavy Lift</figcaption>
-                </figure>
-            </div>
-            <div class="col-md-4">
-                <ul>
-                    <li>Boost an empty ring or station (normal movement cost +3). Your ship may not re-fuel on the same turn.</li>
-                    <li>Move an extra space</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section class="qref">
-        <h3>Build Costs</h3>
-        <ul>
-            <li>Pirate trap. Cost:
-                <figure>
-                    <img src="./helium-token.png" width="50" height="50" class="circle" />
-                    <figcaption>
-                        helium
-                    </figcaption>
-                </figure>
-            </li>
-            <li>Storage ring. Cost:
-                <figure>
-                    <img src="./metal-token.png" width="50" height="50" class="circle" />
-                    <figcaption>
-                        metal
-                    </figcaption>
-                </figure>
-            </li>
-            <li>Accelerator ring. Cost:
-                <figure>
-                    <img src="./metal-token.png" width="50" height="50" class="circle" />
-                    <figcaption>
-                        metal
-                    </figcaption>
-                </figure>
-                +
-                <figure>
-                    <img src="./helium-token.png" width="50" height="50" class="circle" />
-                    <figcaption>
-                        helium
-                    </figcaption>
-                </figure>
-            </li>
-            <li>Fuel station. Cost:
-                <figure>
-                    <img src="./metal-token.png" width="50" height="50" class="circle" />
-                    <figcaption>
-                        metal
-                    </figcaption>
-                </figure>
-                +
-                <figure>
-                    <img src="./helium-token.png" width="50" height="50" class="circle" />
-                    <figcaption>
-                        helium
-                    </figcaption>
-                </figure>
-                +
-                <figure>
-                    <img src="./helium-token.png" width="50" height="50" class="circle" />
-                    <figcaption>
-                        helium
-                    </figcaption>
-                </figure>
-            </li>
-            <li>Refit station. Cost:
-                <figure>
-                    <img src="./metal-token.png" width="50" height="50" class="circle" />
-                    <figcaption>
-                        metal
-                    </figcaption>
-                </figure>
-                +
-                <figure>
-                    <img src="./helium-token.png" width="50" height="50" class="circle" />
-                    <figcaption>
-                        helium
-                    </figcaption>
-                </figure>
-                +
-                <figure>
-                    <img src="./ice-token.png" width="50" height="50" class="circle" />
-                    <figcaption>
-                        ice
-                    </figcaption>
-                </figure>
-            </li>
-            <li>Orbital Habitat: Cost:
-                <figure>
-                    <img src="./metal-token.png" width="50" height="50" class="circle" />
-                    <figcaption>
-                        metal
-                    </figcaption>
-                </figure>
-                +
-                <figure>
-                    <img src="./helium-token.png" width="50" height="50" class="circle" />
-                    <figcaption>
-                        helium
-                    </figcaption>
-                </figure>
-                +
-                <figure>
-                    <img src="./ice-token.png" width="50" height="50" class="circle" />
-                    <figcaption>
-                        ice
-                    </figcaption>
-                </figure>
-                +
-                <figure>
-                    <img src="./ice-token.png" width="50" height="50" class="circle" />
-                    <figcaption>
-                        ice
-                    </figcaption>
-                </figure>
-            </li>
+          <li><strong>Move</strong></li>
+          <li><strong>Retool</strong> their ship (for mining <img class="circle" src="./class-marker1.png" width="40" />
+            or building <img class="circle" src="./class-marker3.png" width="40" /> )</li>
+          <li><strong>Mine*</strong> a resource (if tooled for mining and at a resource planet)</li>
+          <li><strong>Build*</strong> a structure (if tooled for building and carying sufficient resources)</li>
+          <li><strong>Upgrade</strong> a ship (if tooled for building and colocated with the ship being upgraded). Only
+            an upgraded ship (<img style="vertical-align: middle" src="./ship-card[back].svg" width="40" />) can
+            transport water</li>
         </ul>
-    </section>
-    <section class="qref">
-        <h2 id="winning-or-losing">Winning or Losing</h2>
-        <h3 id="winning">Winning</h3>
+        They may also do the following at any time:
         <ul>
-            <li>Easy: Successfully construct and provision one orbital habitat.</li>
-            <li>Normal: Successfully construct and provision two orbital habitats.</li>
-            <li>Hard: Successfully construct and provision three orbital habitats.</li>
+          <li><strong>Re-fuel</strong></li>
+          <li><strong>Transfer</strong> fuel or resources between colocated ships</li>
         </ul>
-        <h3 id="losing">Losing</h3>
-        <ul>
-            <li>Easy: Pirates collect ten resource tokens.</li>
-            <li>Normal: Pirates collect eight resource tokens..</li>
-            <li>Hard: Pirates collect six resource tokens..</li>
-        </ul>
-    </section>
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
+      </p>
+      * Players may also roll the dice once to try to gain a bonus build or mine action. The roll can have the
+      following outcomes:
+      <ul>
+        <li>1 or 2 - Their tool breaks and they will need to retool before building or mining again.</li>
+        <li>3 or 4 - The attempt fails</li>
+        <li>5 or 6 - The attempt succeeds and the player can proceed with the action</li>
+      </ul>
+      <p>Players indicate the have used their action (or are choosing not to) by turning their action token face down.
+        When all action tokens are face down, everything orbits one space counter clockwise, players flip their action
+        tokens up again, and a new round begins.</p>
+    </div>
+  </section>
+  <section class="qref">
+    <h2 id="ship-movement">Movement Cost</h2>
+    See Table
+  </section>
+  <section class="qref">
+    <h3>Build Costs</h3>
+    <ul>
+      <li>Station Base:
+        <figure>
+          <img src="./metal-token.png" width="50" height="50" class="circle" />
+          <figcaption>
+            metal
+          </figcaption>
+        </figure>
+      </li>
+      <li>Launch Platform (added to station base):
+        <figure>
+          <img src="./metal-token.png" width="50" height="50" class="circle" />
+          <figcaption>
+            metal
+          </figcaption>
+        </figure>
+        +
+        <figure>
+          <img src="./helium-token.png" width="50" height="50" class="circle" />
+          <figcaption>
+            helium
+          </figcaption>
+        </figure>
+      </li>
+      <li>Fuel Module (added to station base) :
+        <figure>
+          <img src="./metal-token.png" width="50" height="50" class="circle" />
+          <figcaption>
+            metal
+          </figcaption>
+        </figure>
+        +
+        <figure>
+          <img src="./helium-token.png" width="50" height="50" class="circle" />
+          <figcaption>
+            helium
+          </figcaption>
+        </figure>
+      </li>
+      <li>Engineering and Storage Module (added to station base):
+        <figure>
+          <img src="./metal-token.png" width="50" height="50" class="circle" />
+          <figcaption>
+            metal
+          </figcaption>
+        </figure>
+      </li>
+    </ul>
+  </section>
+  <section class="qref">
+    <h2 id="winning-or-losing">Winning or Losing</h2>
+    <h3 id="winning">Winning</h3>
+    <p>Players win by collecting a sufficient amount of ice (<img src="./ice-token.png" width="50" height="50" class="circle" />)
+      and transporting it to the target planet.
+    </p>
+    <ul>
+      <li>Easy: One for each player playing.</li>
+      <li>Normal: Two for each player.</li>
+      <li>Hard: Three for each player.</li>
+    </ul>
+    <h3 id="losing">Losing</h3>
+    <p>The players lose if the colony ship reaches the target planet before sufficient ice is delivered.</p>
+  </section>
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
