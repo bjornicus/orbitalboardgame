@@ -4,7 +4,7 @@
 <head>
   <!-- Required meta tags always come first -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width= players lose if the colony ship reaches the target planet before sufficient ice is delivereddevice-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="instructions.css" />
 </head>
@@ -40,13 +40,14 @@
       </ul>
       <p>Players indicate the have used their action (or are choosing not to) by turning their action token face down.
         When all action tokens are face down, everything orbits one space counter clockwise, players flip their action
-        tokens up again, and a new round begins.</p>
+        tokens up again, the round timer is restarted (if using), and a new round begins.</p>
     </div>
   </section>
   <section class="qref">
     <h2 id="ship-movement">Movement Cost</h2>
     See Table
   </section>
+
   <section class="qref">
     <h3>Build Costs</h3>
     <ul>
@@ -99,18 +100,39 @@
     </ul>
   </section>
   <section class="qref">
+    <h2 id="Special-events">Special events</h2>
+    <p> At the beginning of a round, when the timer is started the following special events may occur:
+    </p>
+    <ul>
+      <li><em>Extreme solar activity</em> - players may not communicate with each other during the round (no talking
+        about the game or pointing)</li>
+      <li><em>Time Dialation</em> - the timer for this round is shorter than normal</li>
+    </ul>
+    If the timer expires before all players have turned their action tokens face down one of the following happens to a
+    random player
+    <ul>
+      <li><em>Tool breakage</em> - the player's mining or build tool breaks and they must retool before using it</li>
+      <li><em>Fuel leak</em> - the player's ship experiences a fuel leak and loses one fuel</li>
+    </ul>
+  </section>
+  <section class="qref">
     <h2 id="winning-or-losing">Winning or Losing</h2>
     <h3 id="winning">Winning</h3>
     <p>Players win by collecting a sufficient amount of ice (<img src="./ice-token.png" width="50" height="50" class="circle" />)
-      and transporting it to the target planet.
+      and transporting it to the target planet. The amound needed should be chosen at the beginning of the game based
+      on desired difficulty.
+      One or two per player is recommend.
     </p>
-    <ul>
-      <li>Easy: One for each player playing.</li>
-      <li>Normal: Two for each player.</li>
-      <li>Hard: Three for each player.</li>
-    </ul>
+
     <h3 id="losing">Losing</h3>
     <p>The players lose if the colony ship reaches the target planet before sufficient ice is delivered.</p>
+
+    <h3 id="losing">Difficulty</h3>
+    <p>There are several ways to adjust the difficulty aside from the amount of ice required to win. The round timer
+      can be adjusted longer or shorter (for a more frantic game) or not used at all (for beginners or those who don't
+      like time pressure). The number of resource planets in play can also be changed (use only one of each type for
+      maximum challenge). The target planet can also be placed in the third orbit rather than the second to shorted the
+      number of turns before the colony ship arrives </p>
   </section>
   <!-- jQuery first, then Tether, then Bootstrap JS. -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY"
