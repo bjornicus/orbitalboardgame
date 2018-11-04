@@ -1,0 +1,585 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link type="text/css" rel="stylesheet" href="resources/sheet.css">
+<style type="text/css">
+  .ritz .waffle a {
+    color: inherit;
+  }
+
+  .ritz .waffle .s3 {
+    border-left: none;
+    background-color: #f3f3f3;
+    text-align: left;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s18 {
+    border-bottom: 3px DOUBLE #000000;
+    border-right: 3px DOUBLE #000000;
+    background-color: #ffffff;
+    text-align: right;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s23 {
+    background-color: #ffffff;
+    text-align: left;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s7 {
+    border-bottom: 3px DOUBLE #000000;
+    border-right: 3px DOUBLE #000000;
+    background-color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: normal;
+    overflow: hidden;
+    word-wrap: break-word;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s17 {
+    border-bottom: 1px SOLID #000000;
+    border-right: 3px DOUBLE #000000;
+    background-color: #b7b7b7;
+    text-align: right;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s12 {
+    background-color: #b7b7b7;
+    text-align: right;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s4 {
+    border-left: none;
+    border-right: none;
+    background-color: #b7b7b7;
+    text-align: left;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s10 {
+    border-right: 3px DOUBLE #000000;
+    background-color: #ffffff;
+    text-align: right;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s15 {
+    border-bottom: 1px SOLID #000000;
+    background-color: #f3f3f3;
+    text-align: right;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s8 {
+    border-bottom: 3px DOUBLE #000000;
+    background-color: #f3f3f3;
+    text-align: left;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: normal;
+    overflow: hidden;
+    word-wrap: break-word;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s14 {
+    border-bottom: 1px SOLID #000000;
+    border-right: 3px DOUBLE #000000;
+    background-color: #ffffff;
+    text-align: right;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s16 {
+    border-bottom: 1px SOLID #000000;
+    background-color: #b7b7b7;
+    text-align: right;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s5 {
+    border-left: none;
+    border-right: none;
+    background-color: #b7b7b7;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 14pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s0 {
+    border-right: 3px DOUBLE #000000;
+    background-color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s2 {
+    border-left: none;
+    border-right: none;
+    background-color: #f3f3f3;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 14pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s11 {
+    background-color: #f3f3f3;
+    text-align: right;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s13 {
+    border-right: 3px DOUBLE #000000;
+    background-color: #b7b7b7;
+    text-align: right;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s1 {
+    border-right: none;
+    background-color: #f3f3f3;
+    text-align: left;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s6 {
+    border-left: none;
+    background-color: #b7b7b7;
+    text-align: left;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s25 {
+    background-color: #b7b7b7;
+    text-align: left;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s19 {
+    border-bottom: 3px DOUBLE #000000;
+    background-color: #f3f3f3;
+    text-align: right;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s21 {
+    border-bottom: 3px DOUBLE #000000;
+    border-right: 3px DOUBLE #000000;
+    background-color: #b7b7b7;
+    text-align: right;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s22 {
+    background-color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s24 {
+    background-color: #f3f3f3;
+    text-align: left;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s20 {
+    border-bottom: 3px DOUBLE #000000;
+    background-color: #b7b7b7;
+    text-align: right;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .ritz .waffle .s9 {
+    border-bottom: 3px DOUBLE #000000;
+    background-color: #b7b7b7;
+    text-align: left;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: normal;
+    overflow: hidden;
+    word-wrap: break-word;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+  }
+</style>
+<div class="ritz grid-container" dir="ltr">
+  <table class="waffle" cellspacing="0" cellpadding="0">
+    <thead>
+      <tr>
+        <th style="height: 0; width:100px"></th>
+        <th style="height: 0; width:100px"></th>
+        <th style="height: 0; width:131px"></th>
+        <th style="height: 0; width:130px"></th>
+        <th style="height: 0; width:100px"></th>
+        <th style="height: 0; width:100px"></th>
+        <th style="height: 0; width:100px"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style='height:20px;'>
+        <td class="s0" dir="ltr"></td>
+        <td class="s1"></td>
+        <td class="s2 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 275px; left: -17px;"><span style="font-size:14pt;font-weight:bold;">Change
+              Orbits</span></div>
+        </td>
+        <td class="s3"></td>
+        <td class="s4"></td>
+        <td class="s5 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 252px; left: -55px;"><span style="font-size:14pt;font-weight:bold;">Within
+              Same Orbit</span></div>
+        </td>
+        <td class="s6"></td>
+      </tr>
+      <tr style='height:44px;'>
+        <td class="s7" dir="ltr"><span style="font-weight:bold;">carried weight</span></td>
+        <td class="s8" dir="ltr"><span style="font-weight:bold;">Normal Cost</span></td>
+        <td class="s8" dir="ltr"><span style="font-weight:bold;">Arriving at a planet or leaving from a launch station</span></td>
+        <td class="s8" dir="ltr"><span style="font-weight:bold;">Arriving at a planet and leaving from a launch station</span></td>
+        <td class="s9" dir="ltr"><span style="font-weight:bold;">One space</span></td>
+        <td class="s9" dir="ltr"><span style="font-weight:bold;">Two spaces</span></td>
+        <td class="s9" dir="ltr"><span style="font-weight:bold;">Three spaces</span></td>
+      </tr>
+      <tr style='height:20px;'>
+        <td class="s10" dir="ltr"><span style="font-weight:bold;">1</span></td>
+        <td class="s11">1</td>
+        <td class="s11">1</td>
+        <td class="s11">1</td>
+        <td class="s12">1</td>
+        <td class="s12" dir="ltr">-</td>
+        <td class="s13" dir="ltr">-</td>
+      </tr>
+      <tr style='height:20px;'>
+        <td class="s10" dir="ltr"><span style="font-weight:bold;">2</span></td>
+        <td class="s11">1</td>
+        <td class="s11">1</td>
+        <td class="s11">1</td>
+        <td class="s12">1</td>
+        <td class="s12" dir="ltr">2</td>
+        <td class="s13" dir="ltr">-</td>
+      </tr>
+      <tr style='height:20px;'>
+        <td class="s10" dir="ltr"><span style="font-weight:bold;">3</span></td>
+        <td class="s11">1</td>
+        <td class="s11">1</td>
+        <td class="s11">1</td>
+        <td class="s12">1</td>
+        <td class="s12">3</td>
+        <td class="s13" dir="ltr">-</td>
+      </tr>
+      <tr style='height:20px;'>
+        <td class="s10" dir="ltr"><span style="font-weight:bold;">4</span></td>
+        <td class="s11">2</td>
+        <td class="s11">1</td>
+        <td class="s11">1</td>
+        <td class="s12">1</td>
+        <td class="s12">3</td>
+        <td class="s13" dir="ltr">4</td>
+      </tr>
+      <tr style='height:20px;'>
+        <td class="s10" dir="ltr"><span style="font-weight:bold;">5</span></td>
+        <td class="s11">2</td>
+        <td class="s11">1</td>
+        <td class="s11">1</td>
+        <td class="s12">1</td>
+        <td class="s12">3</td>
+        <td class="s13" dir="ltr">5</td>
+      </tr>
+      <tr style='height:20px;'>
+        <td class="s10" dir="ltr"><span style="font-weight:bold;">6</span></td>
+        <td class="s11">3</td>
+        <td class="s11">2</td>
+        <td class="s11">1</td>
+        <td class="s12">1</td>
+        <td class="s12">3</td>
+        <td class="s13">6</td>
+      </tr>
+      <tr style='height:20px;'>
+        <td class="s10" dir="ltr"><span style="font-weight:bold;">7</span></td>
+        <td class="s11">3</td>
+        <td class="s11">2</td>
+        <td class="s11">1</td>
+        <td class="s12">1</td>
+        <td class="s12">3</td>
+        <td class="s13">6</td>
+      </tr>
+      <tr style='height:20px;'>
+        <td class="s14" dir="ltr"><span style="font-weight:bold;">8</span></td>
+        <td class="s15">4</td>
+        <td class="s15">2</td>
+        <td class="s15">1</td>
+        <td class="s16">1</td>
+        <td class="s16">3</td>
+        <td class="s17">6</td>
+      </tr>
+      <tr style='height:20px;'>
+        <td class="s10" dir="ltr"><span style="font-weight:bold;">9</span></td>
+        <td class="s11">4</td>
+        <td class="s11">2</td>
+        <td class="s11">1</td>
+        <td class="s12">1</td>
+        <td class="s12">3</td>
+        <td class="s13">6</td>
+      </tr>
+      <tr style='height:20px;'>
+        <td class="s10" dir="ltr"><span style="font-weight:bold;">10</span></td>
+        <td class="s11">5</td>
+        <td class="s11">3</td>
+        <td class="s11" dir="ltr">2</td>
+        <td class="s12">2</td>
+        <td class="s12">4</td>
+        <td class="s13">7</td>
+      </tr>
+      <tr style='height:20px;'>
+        <td class="s10" dir="ltr"><span style="font-weight:bold;">11</span></td>
+        <td class="s11">5</td>
+        <td class="s11">3</td>
+        <td class="s11" dir="ltr">2</td>
+        <td class="s12">2</td>
+        <td class="s12">4</td>
+        <td class="s13">7</td>
+      </tr>
+      <tr style='height:20px;'>
+        <td class="s10" dir="ltr"><span style="font-weight:bold;">12</span></td>
+        <td class="s11">6</td>
+        <td class="s11">3</td>
+        <td class="s11">2</td>
+        <td class="s12">2</td>
+        <td class="s12">4</td>
+        <td class="s13">7</td>
+      </tr>
+      <tr style='height:20px;'>
+        <td class="s10" dir="ltr"><span style="font-weight:bold;">13</span></td>
+        <td class="s11">6</td>
+        <td class="s11">3</td>
+        <td class="s11">2</td>
+        <td class="s12">2</td>
+        <td class="s12">4</td>
+        <td class="s13">7</td>
+      </tr>
+      <tr style='height:20px;'>
+        <td class="s10" dir="ltr"><span style="font-weight:bold;">14</span></td>
+        <td class="s11">7</td>
+        <td class="s11">4</td>
+        <td class="s11" dir="ltr">3</td>
+        <td class="s12">3</td>
+        <td class="s12">5</td>
+        <td class="s13">8</td>
+      </tr>
+      <tr style='height:20px;'>
+        <td class="s10" dir="ltr"><span style="font-weight:bold;">15</span></td>
+        <td class="s11">7</td>
+        <td class="s11">4</td>
+        <td class="s11" dir="ltr">3</td>
+        <td class="s12">3</td>
+        <td class="s12">5</td>
+        <td class="s13">8</td>
+      </tr>
+      <tr style='height:20px;'>
+        <td class="s18" dir="ltr"><span style="font-weight:bold;">16</span></td>
+        <td class="s19">8</td>
+        <td class="s19">4</td>
+        <td class="s19" dir="ltr">3</td>
+        <td class="s20">3</td>
+        <td class="s20">5</td>
+        <td class="s21">8</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<script type='text/javascript' nonce='HOv+S9y85jbXMRth9kBzj8I3uKY'>
+  function posObj(sheet, id, row, col, x, y) {
+    var rtl = false;
+    var sheetElement = document.getElementById(sheet);
+    if (!sheetElement) {
+      sheetElement = document.getElementById(sheet + '-grid-container');
+    }
+    if (sheetElement) {
+      rtl = sheetElement.getAttribute('dir') == 'rtl';
+    }
+    var r = document.getElementById(sheet + 'R' + row);
+    var c = document.getElementById(sheet + 'C' + col);
+    if (r && c) {
+      var objElement = document.getElementById(id);
+      var s = objElement.style;
+      var t = y;
+      while (r && r != sheetElement) {
+        t += r.offsetTop;
+        r = r.offsetParent;
+      }
+      var offsetX = x;
+      while (c && c != sheetElement) {
+        offsetX += c.offsetLeft;
+        c = c.offsetParent;
+      }
+      if (rtl) {
+        offsetX -= objElement.offsetWidth;
+      }
+      s.left = offsetX + 'px';
+      s.top = t + 'px';
+      s.display = 'block';
+      s.border = '1px solid #000000';
+    }
+  };
+  function posObjs() {
+  };
+  posObjs();</script>
