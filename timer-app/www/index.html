@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!--
+  Customize this policy to fit your own app's needs. For more guidance, see:
+      https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+  Some notes:
+      * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+      * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+      * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+          * Enable inline JS: add 'unsafe-inline' to default-src
+  -->
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content:">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#2196f3">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <title>Trajectory App</title>
+  <link rel="stylesheet" href="libs/framework7/css/framework7.min.css">
+  <!-- <link rel="stylesheet" href="libs/framework7/css/framework7.css"> -->
+  <link rel="stylesheet" href="css/icons.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+  <div id="app">
+    <f7-app :params="f7params">
+
+      <!-- Main View -->
+      <f7-view id="main-view" main theme-dark>
+        <f7-page>
+          <f7-list accordion-list>
+            <f7-list-item accordion-item title="Active Ships">
+              <f7-accordion-content>
+                <f7-list>
+                  <f7-list-item v-for="ship in ships" :text-color="ship.color">
+                    <span> {{ ship.color }}</span>
+                    <f7-toggle :checked="ship.isActive" :color="ship.color" @toggle:change="val => {ship.isActive = val}"></f7-toggle>
+                  </f7-list-item>
+                </f7-list>
+              </f7-accordion-content>
+            </f7-list-item>
+          </f7-list>
+          <f7-block-title>Round Length</f7-block-title>
+          <f7-range :min="1" :max="90" :step="5" :value="60" :label="true" color="blue" @range:change="updateRoundLength"></f7-range>
+          <f7-block strong class="text-align-center">
+            <a @click="toggleTimer">
+              <f7-gauge type="circle" :value="gaugeValue" :size="250" border-color="#2196f3" :border-width="10"
+                :value-text="`${Math.round(secondsRemaining)}`" :value-font-size="41" value-text-color="#2196f3"
+                label-text="seconds remaining"></f7-gauge>
+            </a>
+          </f7-block>
+        </f7-page>
+      </f7-view>
+    </f7-app>
+  </div>
+
+  <!-- Cordova -->
+  <!--
+  <script src="cordova.js"></script>
+  -->
+
+  <!-- Framework7 library -->
+  <script src="libs/framework7/js/framework7.min.js"></script>
+
+  <!-- Vue -->
+  <script src="libs/vue/vue.js"></script>
+  <!-- <script src="libs/vue/vue.min.js"></script> -->
+
+  <!-- Framework7-Vue plugin -->
+  <script src="libs/framework7-vue/framework7-vue.min.js"></script>
+
+  <!-- Your custom app scripts -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>

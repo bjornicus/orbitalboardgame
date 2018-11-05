@@ -1,0 +1,10 @@
+/* Your app styles here */
+.text-color-purple {
+  color: #9c27b0;
+}
+.toggle.color-purple input[type='checkbox']:checked + .toggle-icon {
+  background: rgba(156, 39, 176, 0.5);
+}
+.toggle.color-purple input[type='checkbox']:checked + .toggle-icon:after {
+  background: #9c27b0;
+}
