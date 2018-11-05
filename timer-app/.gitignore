@@ -38,3 +38,7 @@ jspm_packages
 
 www/libs
 www/fonts
+
+# cordova
+platforms
+plugins
