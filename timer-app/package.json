@@ -1,33 +1,16 @@
 {
-  "name": "framework7-template-vue-simple",
-  "version": "2.0.0",
-  "description": "Simple Framework7 Vue starter app template",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/framework7io/framework7-template-vue-simple.git"
-  },
+  "name": "com.github.bjornicus.trajectory.timer",
+  "displayName": "Trajectory Timer",
+  "version": "1.0.0",
+  "description": "A companion app for the Trajectory board game.",
+  "main": "index.js",
   "scripts": {
     "serve": "http-server ./www/ -o -c 1 -a localhost",
     "copy-f7": "cpy node_modules/framework7/js/*.* www/libs/framework7/js && cpy node_modules/framework7/css/*.* www/libs/framework7/css && cpy node_modules/framework7-vue/*.* www/libs/framework7-vue/ && cpy node_modules/vue/dist/*.* www/libs/vue/ && cpy node_modules/framework7-icons/fonts/*.* www/fonts && cpy node_modules/material-design-icons/iconfont/*.{eot,ttf,woff,woff2} www/fonts",
     "postinstall": "npm run copy-f7"
   },
-  "keywords": [
-    "framework7",
-    "vue",
-    "template",
-    "ios",
-    "android",
-    "mobile",
-    "app",
-    "cordova",
-    "phonegap"
-  ],
-  "author": "Vladimir Kharlampidi",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/framework7io/framework7-template-vue-simple/issues"
-  },
-  "homepage": "https://github.com/framework7io/framework7-template-vue-simple#readme",
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
   "devDependencies": {
     "cpy-cli": "^1.0.1",
     "vue": "^2.5.16",
