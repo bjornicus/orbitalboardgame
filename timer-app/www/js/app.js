@@ -24,6 +24,7 @@ function initApp() {
         secondsRemaining: 60,
         roundLength: 60,
         interval: false,
+        hasTimeExpiredMessagePlayed: false,
         ships: [
           { color: 'green', isActive: true },
           { color: 'blue', isActive: true },
@@ -35,7 +36,7 @@ function initApp() {
         malfuctions: [
           'has a fuel leak and loses one fuel',
           'has dysentery and is unable to move',
-          "has broken its tooling and must retool"
+          'has broken its tooling and must retool'
         ],
         // Framework7 parameters here
         f7params: {
@@ -78,10 +79,12 @@ function initApp() {
           clearInterval(this.interval);
           this.interval = false;
           this.secondsRemaining = this.roundLength;
+          this.hasTimeExpiredMessagePlayed = false;
         } else {
           this.interval = setInterval(() => {
             this.secondsRemaining = this.secondsRemaining - 0.2;
-            if (this.secondsRemaining < 0 && this.secondsRemaining > -0.4) {
+            if (this.secondsRemaining < 0 && !this.hasTimeExpiredMessagePlayed) {
+              this.hasTimeExpiredMessagePlayed = true;
               var ship = this.activeShips[
                 Math.floor(Math.random() * this.activeShips.length)
               ];
@@ -99,9 +102,8 @@ function initApp() {
 
 initApp();
 
-const synth = window.speechSynthesis;
 function speak(message) {
-  if (synth.speaking) {
+  if (speechSynthesis.speaking) {
     console.error('speechSynthesis.speaking');
     return;
   }
@@ -121,6 +123,6 @@ function speak(message) {
     // }
     // utterThis.pitch = pitch.value;
     // utterThis.rate = rate.value;
-    synth.speak(utterThis);
+    speechSynthesis.speak(utterThis);
   }
 }
