@@ -19,5 +19,17 @@
     "framework7-icons": "^0.9.1",
     "http-server": "^0.10.0",
     "material-design-icons": "^3.0.1"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "phonegap-plugin-speech-synthesis": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "~7.0.0",
+    "phonegap-plugin-speech-synthesis": "git+https://github.com/macdonst/SpeechSynthesisPlugin.git"
   }
 }
