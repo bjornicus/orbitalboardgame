@@ -38,6 +38,9 @@ function initApp() {
           'has dysentery and is unable to move',
           'has broken its tooling and must retool'
         ],
+        roundModifiers: [
+          'Extreme solar activity is disrupting communications, players may not communicate with each other this round.'
+        ],
         // Framework7 parameters here
         f7params: {
           root: '#app', // App root element
@@ -76,31 +79,41 @@ function initApp() {
       },
       toggleTimer: function() {
         if (this.interval) {
-          clearInterval(this.interval);
-          this.interval = false;
-          this.secondsRemaining = this.roundLength;
-          this.hasTimeExpiredMessagePlayed = false;
+          this.stopTimer();
         } else {
-          this.interval = setInterval(() => {
-            this.secondsRemaining = this.secondsRemaining - 0.2;
-            if (this.secondsRemaining < 0 && !this.hasTimeExpiredMessagePlayed) {
-              this.hasTimeExpiredMessagePlayed = true;
-              var ship = this.activeShips[
-                Math.floor(Math.random() * this.activeShips.length)
-              ];
-              var malfunction = this.malfuctions[
-                Math.floor(Math.random() * this.malfuctions.length)
-              ];
-              speak(`the ${ship.color} ship ${malfunction}`);
-            }
-          }, 200);
+          this.startTimer();
         }
+      },
+      startTimer: function() {
+        if (Math.random() < 0.1) {
+          var modifier = randomChoice(this.roundModifiers);
+          speak(modifier);
+        }
+        this.interval = setInterval(() => {
+          this.secondsRemaining = this.secondsRemaining - 0.2;
+          if (this.secondsRemaining < 0 && !this.hasTimeExpiredMessagePlayed) {
+            this.hasTimeExpiredMessagePlayed = true;
+            var ship = randomChoice(this.activeShips);
+            var malfunction = randomChoice(this.malfuctions);
+            speak(`the ${ship.color} ship ${malfunction}`);
+          }
+        }, 200);
+      },
+      stopTimer: function() {
+        clearInterval(this.interval);
+        this.interval = false;
+        this.secondsRemaining = this.roundLength;
+        this.hasTimeExpiredMessagePlayed = false;
       }
     }
   });
 }
 
 initApp();
+
+function randomChoice(choices) {
+  return choices[Math.floor(Math.random() * choices.length)];
+}
 
 function speak(message) {
   if (speechSynthesis.speaking) {
