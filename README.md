@@ -23,7 +23,7 @@ Work together to collect and transport critical resources in order to construct 
 ##Parts
 
 ###One Game Board
-<img src="https://rawgithub.com/bjornicus/orbitalboardgame/master/game-board-thumbnail.png" width="300" height="300" /> 
+<img src="https://raw.githubusercontent.com/bjornicus/orbitalboardgame/master/game-board-thumbnail.png" width="300" height="300" /> 
 
 ###One resource spinner
 <img class="circle" src="https://rawgithub.com/bjornicus/orbitalboardgame/master/spinner.png" width="100" height="100" /> 
